@@ -1,0 +1,2872 @@
+Compiling 1 file (.ex)
+[error] `inotify-tools` is needed to run `file_system` for your system, check https://github.com/rvoicilas/inotify-tools/wiki for more information about how to install it. If it's already installed but not be found, appoint executable file with `config.exs` or `FILESYSTEM_FSINOTIFY_EXECUTABLE_FILE` env.
+[warn] Could not start Phoenix live-reload because we cannot listen to the file system.
+You don't need to worry! This is an optional feature used during development to
+refresh your browser when you save files and it does not affect production.
+
+[info] starting Elixir.AwesomeList.Repo.Performer
+Interactive Elixir (1.9.2) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> [info] AwesomeList.Repo.Performer start
+iex(1)> [debug] QUERY OK source="languages" db=11.4ms decode=1.3ms queue=2.2ms idle=937.4ms
+SELECT l0."id", l0."list_anchor", l0."name", l0."repo_path", l0."inserted_at", l0."updated_at" FROM "languages" AS l0 []
+iex(1)> [info] Schedule elixir's awesome-list
+iex(1)> [debug] QUERY OK source="languages" db=0.7ms queue=1.3ms idle=971.7ms
+SELECT l0."id", l0."list_anchor", l0."name", l0."repo_path", l0."inserted_at", l0."updated_at" FROM "languages" AS l0 WHERE (l0."name" = $1) ["elixir"]
+iex(1)> [info] request repo readme: h4cc/awesome-elixir
+iex(1)> nil
+iex(2)> [info] request repo meta: https://github.com/spawnproc/forms
+iex(2)> [info] request repo meta: https://github.com/smashedtoatoms/address_us
+iex(2)> [info] request repo meta: https://github.com/sobolevn/ecto_autoslug_field
+[info] request repo meta: https://github.com/Cobenian/Presentex
+[info] request repo meta: https://github.com/whitfin/expool
+[info] request repo meta: https://github.com/hykw/japan_municipality_key
+iex(2)> [info] request repo meta: https://github.com/AlloyCI/alloy_ci
+iex(2)> [info] request repo meta: https://github.com/Brightergy/egaugex
+iex(2)> [info] request repo meta: https://github.com/whitered/ratekeeper
+iex(2)> [info] request repo meta: https://github.com/parroty/exprintf
+iex(2)> [info] request repo meta: https://github.com/nbw/jisho_elixir
+iex(2)> [info] request repo meta: https://github.com/bjro/apex
+iex(2)> [info] request repo meta: https://github.com/tuvistavie/elixir-browser
+iex(2)> [info] request repo meta: https://github.com/liveforeverx/ratx
+iex(2)> [info] request repo meta: https://github.com/meh/exquisite
+iex(2)> [info] request repo meta: https://github.com/okeuday/keys1value
+iex(2)> [info] request repo meta: https://github.com/bettio/AtomVM
+iex(2)> [info] request repo meta: https://github.com/herenowcoder/reprise
+iex(2)> [info] request repo meta: https://github.com/falood/exsync
+iex(2)> [info] request repo meta: https://github.com/unnawut/licensir
+iex(2)> [info] request repo meta: https://github.com/milmazz/bupe
+iex(2)> [info] request repo meta: https://github.com/zelazna/epub_cover_extractor
+iex(2)> [info] request repo meta: https://github.com/chatgris/funnel
+iex(2)> [info] request repo meta: https://github.com/sivsushruth/mixgraph
+iex(2)> [info] request repo meta: https://github.com/tomgco/elixir-charm
+iex(2)> [info] request repo meta: https://github.com/okeuday/erlang_term
+iex(2)> [info] request repo meta: https://github.com/jtmoulia/spawndir
+iex(2)> [info] request repo meta: https://github.com/Nebo15/gen_task
+iex(2)> [info] request repo meta: https://github.com/ma2gedev/mix-star
+iex(2)> [info] request repo meta: https://github.com/hkgumbs/codec-beam
+iex(2)> [info] request repo meta: https://github.com/ericmj/ex2ms
+iex(2)> [info] request repo meta: https://github.com/jsncmgs1/spotify_ex
+iex(2)> [info] request repo meta: https://github.com/ma2gedev/gimei_ex
+iex(2)> [info] request repo meta: https://github.com/ma2gedev/netrcex
+iex(2)> [info] request repo meta: https://github.com/SebastianSzturo/countries
+iex(2)> [info] request repo meta: https://github.com/socialpaymentsbv/ex_phone_number
+iex(2)> [info] request repo meta: https://github.com/hassox/std_json_io
+iex(2)> [info] request repo meta: https://github.com/zachallett/growl
+iex(2)> [info] request repo meta: https://github.com/ryo33/onetime-elixir
+iex(2)> [info] request repo meta: https://github.com/navinpeiris/countriex
+iex(2)> [info] request repo meta: https://github.com/grempe/ex_rated
+iex(2)> [info] request repo meta: https://github.com/semanticart/url_unroller
+iex(2)> [info] request repo meta: https://github.com/ExHammer/hammer
+iex(2)> [info] request repo meta: https://github.com/BlakeWilliams/pact
+iex(2)> [info] request repo meta: https://github.com/Kabie/dye
+iex(2)> [info] request repo meta: https://github.com/Hajto/ExFCM
+iex(2)> [info] request repo meta: https://github.com/whitfin/vessel
+iex(2)> [info] request repo meta: https://github.com/martinsvalin/html_entities
+iex(2)> [info] request repo meta: https://github.com/fcevado/phone
+iex(2)> [info] request repo meta: https://github.com/okeuday/dynamic_compile
+iex(2)> [info] request repo meta: https://github.com/jmerriweather/exldap
+iex(2)> [info] request repo meta: https://github.com/xavier/huex
+iex(2)> [info] request repo meta: https://github.com/alco/porcelain
+iex(2)> [info] request repo meta: https://github.com/pragdave/exlibris
+iex(2)> [info] request repo meta: https://github.com/ramortegui/clamxir
+iex(2)> [info] request repo meta: https://github.com/thiamsantos/pwned
+iex(2)> [info] request repo meta: https://github.com/aforward/safetybox
+iex(2)> [info] request repo meta: https://github.com/nccgroup/sobelow
+iex(2)> [info] request repo meta: https://github.com/deadtrickster/ssl_verify_fun.erl
+iex(2)> [info] request repo meta: https://github.com/exthereum/ex_rlp
+iex(2)> [info] request repo meta: https://github.com/SenecaSystems/huffman
+iex(2)> [info] request repo meta: https://github.com/folz/bento
+iex(2)> [info] request repo meta: https://github.com/alehander42/tracker_request
+iex(2)> [info] request repo meta: https://github.com/alehander42/wire
+iex(2)> [info] request repo meta: https://github.com/fishcakez/connection
+iex(2)> [info] request repo meta: https://github.com/antipax/gen_state_machine
+iex(2)> [info] request repo meta: https://github.com/shanewilton/stockastic
+iex(2)> [info] request repo meta: https://github.com/erlware/relx
+iex(2)> [info] request repo meta: https://github.com/vans163/rebar3_auto
+iex(2)> [info] request repo meta: https://github.com/synrc/active
+iex(2)> [info] request repo meta: https://github.com/AgilionApps/remix
+iex(2)> [info] request repo meta: https://github.com/HashNuke/coffee_rotor
+iex(2)> [info] request repo meta: https://github.com/carlosedp/rebar3_diameter_compiler
+iex(2)> [info] request repo meta: https://github.com/HashNuke/rotor
+iex(2)> [info] request repo meta: https://github.com/jarednorman/dismake
+iex(2)> [info] request repo meta: https://github.com/kellymclaughlin/rebar3-eqc-plugin
+iex(2)> [info] request repo meta: https://github.com/zamith/sass_elixir
+iex(2)> [info] request repo meta: https://github.com/exstruct/etude
+iex(2)> [info] request repo meta: https://github.com/processone/rebar3_exunit
+iex(2)> [info] request repo meta: https://github.com/lycus/exmake
+iex(2)> [info] request repo meta: https://github.com/sebastiw/rebar3_idl_compiler
+iex(2)> [info] request repo meta: https://github.com/liveforeverx/exscript
+iex(2)> [info] request repo meta: https://github.com/pvmart/rebar3_live
+iex(2)> [info] request repo meta: https://github.com/synrc/mad
+iex(2)> [info] request repo meta: https://github.com/zamotivator/rebar3_neotoma_plugin
+iex(2)> [info] request repo meta: https://github.com/blt/port_compiler
+iex(2)> [info] request repo meta: https://github.com/awetzel/reaxt
+iex(2)> [info] request repo meta: https://github.com/benoitc/rebar3_protobuffs
+iex(2)> [info] request repo meta: https://github.com/tsloughter/rebar3_run
+iex(2)> [info] request repo meta: https://github.com/surik/rebar3_abnfc_plugin
+iex(2)> [info] request repo meta: https://github.com/surik/rebar3_yang_plugin
+iex(2)> [info] request repo meta: https://github.com/pyykkis/rebar3_asn1_compiler
+iex(2)> [info] request repo meta: https://github.com/okeuday/reltool_util
+iex(2)> [info] request repo meta: https://github.com/absinthe-graphql/absinthe
+iex(2)> [info] request repo meta: https://github.com/marcelotto/jsonld-ex
+iex(2)> [info] request repo meta: https://github.com/marcelotto/rdf-ex
+iex(2)> [info] request repo meta: https://github.com/marcelotto/rdf-ex
+iex(2)> [info] request repo meta: https://github.com/marcelotto/sparql-ex
+iex(2)> [info] request repo meta: https://github.com/adamkittelson/block_timer
+iex(2)> [info] request repo meta: https://github.com/davebryson/elixir_milliseconds
+iex(2)> [info] request repo meta: https://github.com/lau/calendar
+iex(2)> [info] request repo meta: https://github.com/atabary/moment
+iex(2)> [info] request repo meta: https://github.com/nurugger07/chronos
+iex(2)> [info] request repo meta: https://github.com/hopsor/open_hours
+iex(2)> [info] request repo meta: https://github.com/peek-travel/cocktail
+iex(2)> [info] request repo meta: https://github.com/quantum-elixir/quantum-core
+iex(2)> [info] request repo meta: https://github.com/jbernardo95/cronex
+iex(2)> [info] request repo meta: https://github.com/rcdilorenzo/repeatex
+iex(2)> [info] request repo meta: https://github.com/jshmrtn/crontab
+iex(2)> [info] request repo meta: https://github.com/ConduitMobileRND/tiktak
+iex(2)> [info] request repo meta: https://github.com/nathanhornby/emojiclock-elixir
+iex(2)> [info] request repo meta: https://github.com/ausimian/timelier
+iex(2)> [info] request repo meta: https://github.com/fazibear/ex_ical
+iex(2)> [info] request repo meta: https://github.com/bitwalker/timex
+iex(2)> [info] request repo meta: https://github.com/rcdilorenzo/filtrex
+iex(2)> [info] request repo meta: https://github.com/atabary/timex-interval
+iex(2)> [info] request repo meta: https://github.com/DevL/good_times
+iex(2)> [info] request repo meta: https://github.com/lau/tzdata
+iex(2)> [info] request repo meta: https://github.com/jalaali/elixir-jalaali
+iex(2)> [info] request repo meta: https://github.com/wende/elchemy
+iex(2)> [info] request repo meta: https://github.com/jwhiteman/lighthouse-scheme
+iex(2)> [info] request repo meta: https://github.com/fabrik42/writing_an_interpreter_in_elixir
+iex(2)> [info] request repo meta: https://github.com/JordiPolo/dataframe
+iex(2)> [info] request repo meta: https://github.com/takscape/elixir-array
+[info] request repo meta: https://github.com/awetzel/exfsm
+[info] request repo meta: https://github.com/vic/indifferent
+[info] request repo meta: https://github.com/yosriady/merkle_tree
+[info] request repo meta: https://github.com/StevenJL/parex
+[info] request repo meta: https://github.com/rozap/spacesaving
+iex(2)> [info] request repo meta: https://github.com/dkendal/aruspex
+iex(2)> [info] request repo meta: https://github.com/meh/elixir-datastructures
+iex(2)> [info] request repo meta: https://github.com/princemaple/elixir-queue
+iex(2)> [info] request repo meta: https://github.com/mkaput/elixir-bimap
+iex(2)> [info] request repo meta: https://github.com/Qqwy/elixir-rational
+iex(2)> [info] request repo meta: https://github.com/arianvp/elixir-isaac
+iex(2)> [info] request repo meta: https://github.com/os6sense/DefMemo
+iex(2)> [info] request repo meta: https://github.com/hashd/bitmap-elixir
+iex(2)> [info] request repo meta: https://github.com/rozap/exkad
+iex(2)> [info] request repo meta: https://github.com/hamiltop/structurez
+iex(2)> [info] request repo meta: https://github.com/stocks29/dlist
+iex(2)> [info] request repo meta: https://github.com/SenecaSystems/red_black_tree
+iex(2)> [info] request repo meta: https://github.com/a115/exmatrix
+iex(2)> [info] request repo meta: https://github.com/joekain/BlockingQueue
+iex(2)> [info] request repo meta: https://github.com/seantanly/elixir-minmaxlist
+iex(2)> [info] request repo meta: https://github.com/edubkendo/supermemo
+iex(2)> [info] request repo meta: https://github.com/whitfin/jumper
+iex(2)> [info] request repo meta: https://github.com/gmcabrita/bloomex
+iex(2)> [info] request repo meta: https://github.com/dalmatinerdb/mmath
+[info] request repo meta: https://github.com/herenowcoder/eastar
+iex(2)> [info] request repo meta: https://github.com/ayrat555/clope
+iex(2)> [info] request repo meta: https://github.com/OCannings/tf-idf
+iex(2)> [info] request repo meta: https://github.com/stocks29/ezcryptex
+iex(2)> [info] request repo meta: https://github.com/okeuday/key2value
+iex(2)> [info] request repo meta: https://github.com/seantanly/elixir-combination
+iex(2)> [info] request repo meta: https://github.com/rmies/monad
+iex(2)> [info] request repo meta: https://github.com/stavro/remodel
+iex(2)> [info] request repo meta: https://github.com/camshaft/count_buffer
+iex(2)> [info] request repo meta: https://github.com/smashedtoatoms/the_fuzz
+[info] request repo meta: https://github.com/asaaki/fnv.ex
+[info] request repo meta: https://github.com/asiniy/ecto_materialized_path
+iex(2)> [info] request repo meta: https://github.com/gmcabrita/cuckoo
+iex(2)> [info] request repo meta: https://github.com/rob-brown/MonadEx
+iex(2)> [info] request repo meta: https://github.com/pma/lfsr
+[info] request repo meta: https://github.com/jj1bdx/tinymt-erlang/
+iex(2)> [info] request repo meta: https://github.com/timdeputter/Rendezvous
+iex(2)> [info] request repo meta: https://github.com/duailibe/cuid
+iex(2)> [info] request repo meta: https://github.com/asiniy/ecto_state_machine
+iex(2)> [info] request repo meta: https://github.com/sasa1977/fsm
+iex(2)> [info] request repo meta: https://github.com/asonge/loom
+iex(2)> [info] request repo meta: https://github.com/gmcabrita/murmur
+iex(2)> [info] request repo meta: https://github.com/ayrat555/rock
+iex(2)> [info] request repo meta: https://github.com/jlouis/fuse
+iex(2)> [info] request repo meta: https://github.com/okeuday/trie
+iex(2)> [info] request repo meta: https://github.com/ma2gedev/luhn_ex
+iex(2)> [info] request repo meta: https://github.com/jj1bdx/sfmt-erlang/
+iex(2)> [info] request repo meta: https://github.com/expede/witchcraft
+iex(2)> [info] request repo meta: https://github.com/medhiwidjaja/nary_tree
+iex(2)> [info] request repo meta: https://github.com/tobz/elistrix
+iex(2)> [info] request repo meta: https://github.com/UniversalAvenue/simhash-ex
+iex(2)> [info] request repo meta: https://github.com/szktty/erlang-lz4
+iex(2)> [info] request repo meta: https://github.com/pavlos/gen_fsm
+iex(2)> [info] request repo meta: https://github.com/mrdimosthenis/emel
+iex(2)> [info] request repo meta: https://github.com/DanCouper/natural_sort
+iex(2)> [info] request repo meta: https://github.com/crertel/graphmath
+iex(2)> [info] request repo meta: https://github.com/whitfin/sleeplocks
+iex(2)> [info] request repo meta: https://github.com/gutschilla/elixir-navigation-tree
+iex(2)> [info] request repo meta: https://github.com/aggelgian/erlang-algorithms
+iex(2)> [info] request repo meta: https://github.com/joaomdmoura/machinery
+iex(2)> [info] request repo meta: https://github.com/Dkendal/zipper_tree
+iex(2)> [info] request repo meta: https://github.com/reset/hash-ring-ex
+iex(2)> [info] request repo meta: https://github.com/appcues/exconstructor
+iex(2)> [info] request repo meta: https://github.com/spacepilots/mason
+iex(2)> [info] request repo meta: https://github.com/SenecaSystems/sorted_set
+iex(2)> [info] request repo meta: https://github.com/beatrichartz/parallel_stream
+iex(2)> [info] request repo meta: https://github.com/whitfin/hypex
+iex(2)> [info] request repo meta: https://github.com/seantanly/elixir-paratize
+iex(2)> [info] request repo meta: https://github.com/versilov/matrex
+iex(2)> [info] request repo meta: https://github.com/talentdeficit/jsx
+iex(2)> [info] request repo meta: https://github.com/guedes/exjson
+iex(2)> [info] request repo meta: https://github.com/talentdeficit/jsxn
+iex(2)> [info] request repo meta: https://github.com/AgilionApps/ja_serializer
+iex(2)> [info] request repo meta: https://github.com/jr0senblum/jwalk
+iex(2)> [info] request repo meta: https://github.com/mschae/jwtex
+iex(2)> [info] request repo meta: https://github.com/michalmuskala/jason
+iex(2)> [info] request repo meta: https://github.com/devinus/poison
+iex(2)> [info] request repo meta: https://github.com/meh/jazz
+iex(2)> [info] request repo meta: https://github.com/whitfin/tiny
+iex(2)> [info] request repo meta: https://github.com/bryanjos/joken
+iex(2)> [info] request repo meta: https://github.com/camshaft/world_json_ex
+iex(2)> [info] request repo meta: https://github.com/potatosalad/erlang-jose
+iex(2)> [info] request repo meta: https://github.com/cblage/elixir-json
+iex(2)> [info] request repo meta: https://github.com/xavier/json_pointer
+iex(2)> [info] request repo meta: https://github.com/TreyE/json_stream_encoder
+iex(2)> [info] request repo meta: https://github.com/garyf/json_web_token_ex
+iex(2)> [info] request repo meta: https://github.com/jeregrine/jsonapi
+iex(2)> [info] request repo meta: https://github.com/hahuang65/beaker
+iex(2)> [info] request repo meta: https://github.com/qhool/quaff
+iex(2)> [info] request repo meta: https://github.com/eraserewind/booter
+iex(2)> [info] request repo meta: https://github.com/nietaki/rexbug
+iex(2)> [info] request repo meta: https://github.com/koudelka/visualixir
+iex(2)> [info] request repo meta: https://github.com/fishcakez/dbg
+iex(2)> [info] request repo meta: https://github.com/proger/eflame
+iex(2)> [info] request repo meta: https://github.com/Frost/eh
+iex(2)> [info] request repo meta: https://github.com/massemanet/eper
+iex(2)> [info] request repo meta: https://github.com/maarek/ether
+iex(2)> [info] request repo meta: https://github.com/kagux/ex_debug_toolbar
+iex(2)> [info] request repo meta: https://github.com/liveforeverx/exrun
+iex(2)> [info] request repo meta: https://github.com/qgadrian/elixir_git_hooks
+iex(2)> [info] request repo meta: https://github.com/zhongwencool/observer_cli
+iex(2)> [info] request repo meta: https://github.com/processone/fast_yaml
+iex(2)> [info] request repo meta: https://github.com/yakaz/yamerl
+iex(2)> [info] request repo meta: https://github.com/KamilLelonek/yaml-elixir
+iex(2)> [info] request repo meta: https://github.com/Joe-noh/yomel
+iex(2)> [info] request repo meta: https://github.com/elixirscript/elixirscript/
+iex(2)> [info] request repo meta: https://github.com/bryanjos/elixir-estree
+iex(2)> [info] request repo meta: https://github.com/khusnetdinov/phoenix_gon
+iex(2)> [info] request repo meta: https://github.com/khusnetdinov/phoenix_routes_js
+iex(2)> [info] request repo meta: https://github.com/expede/exceptional
+iex(2)> [info] request repo meta: https://github.com/vic/happy
+iex(2)> [info] request repo meta: https://github.com/CrowdHailer/OK
+iex(2)> [info] request repo meta: https://github.com/getsentry/sentry-elixir
+iex(2)> [info] request repo meta: https://github.com/jfrolich/authorize
+iex(2)> [info] request repo meta: https://github.com/schrockwell/bodyguard
+iex(2)> [info] request repo meta: https://github.com/jarednorman/canada
+iex(2)> [info] request repo meta: https://github.com/cpjk/canary
+iex(2)> [info] request repo meta: https://github.com/coryodaniel/speakeasy
+iex(2)> [info] request repo meta: https://github.com/MilosMosovsky/terminator
+iex(2)> [info] request repo meta: https://github.com/danmcclain/voorhees
+iex(2)> [info] request repo meta: https://github.com/railsmechanic/bankster
+iex(2)> [info] request repo meta: https://github.com/kickinespresso/ex_gtin
+iex(2)> [info] request repo meta: https://github.com/falti/ex_nric
+iex(2)> [info] request repo meta: https://github.com/madeinussr/exop
+iex(2)> [info] request repo meta: https://github.com/bydooweedoo/is
+iex(2)> [info] request repo meta: https://github.com/zbarnes757/jeaux
+iex(2)> [info] request repo meta: https://github.com/albert-io/optimal
+iex(2)> [info] request repo meta: https://github.com/prio/shape
+iex(2)> [info] request repo meta: https://github.com/bcoop713/skooma
+iex(2)> [info] request repo meta: https://github.com/KushalP/uk_postcode
+iex(2)> [info] request repo meta: https://github.com/CargoSense/vex
+iex(2)> [info] request repo meta: https://github.com/herenowcoder/webassembly
+iex(2)> [info] request repo meta: https://github.com/inaka/Dayron
+[info] request repo meta: https://github.com/absinthe-graphql/absinthe_plug
+[info] request repo meta: https://github.com/vic/params
+[info] request repo meta: https://github.com/pma/phoenix_pubsub_rabbitmq
+[info] request repo meta: https://github.com/c-rack/plug_cloudflare
+[info] request repo meta: https://github.com/stnly/plug_ribbon
+[info] request repo meta: https://github.com/KazuCocoa/revision_plate_ex
+iex(2)> [info] request repo meta: https://github.com/phoenixframework/phoenix_pubsub_redis
+iex(2)> [info] request repo meta: https://github.com/AppDoctorIo/accesspass
+iex(2)> [info] request repo meta: https://github.com/smpallen99/ex_admin
+iex(2)> [info] request repo meta: https://github.com/techgaun/plug_secex
+iex(2)> [info] request repo meta: https://github.com/awetzel/plug_forwarded_peer
+iex(2)> [info] request repo meta: https://github.com/opendrops/passport
+[info] request repo meta: https://github.com/Excipients/rummage_ecto
+iex(2)> [info] request repo meta: https://github.com/stevenschobert/weebo
+iex(2)> [info] request repo meta: https://github.com/nicksanders/exdjango
+iex(2)> [info] request repo meta: https://github.com/gutschilla/plug-session-memcached
+iex(2)> [info] request repo meta: https://github.com/trenpixster/addict
+iex(2)> [info] request repo meta: https://github.com/larshesel/phoenix_pubsub_vernemq
+iex(2)> [info] request repo meta: https://github.com/Excipients/rummage_phoenix
+iex(2)> [info] request repo meta: https://github.com/handnot2/plug_sigaws
+iex(2)> [info] request repo meta: https://github.com/adanselm/exrecaptcha
+iex(2)> [info] request repo meta: https://github.com/phoenixframework/phoenix_ecto
+iex(2)> [info] request repo meta: https://github.com/romul/airbrake_plug
+iex(2)> [info] request repo meta: https://github.com/obmarg/plug_fprof
+iex(2)> [info] request repo meta: https://github.com/jeffweiss/plug_statsd
+iex(2)> [info] request repo meta: https://github.com/slime-lang/phoenix_slime
+iex(2)> [info] request repo meta: https://github.com/omohokcoj/filterable
+iex(2)> [info] request repo meta: https://github.com/gausby/scaffold
+iex(2)> [info] request repo meta: https://github.com/chrismccord/phoenix_haml
+iex(2)> [info] request repo meta: https://github.com/manukall/phoenix_token_auth
+iex(2)> [info] request repo meta: https://github.com/sugar-framework/plugs
+iex(2)> [info] request repo meta: https://github.com/nickgartmann/ashes
+iex(2)> [info] request repo meta: https://github.com/graphql-elixir/plug_graphql
+iex(2)> [info] request repo meta: https://github.com/graphql-elixir/graphql_parser
+[info] request repo meta: https://github.com/elixir-lang/plug
+iex(2)> [info] request repo meta: https://github.com/phoenixframework/phoenix_html
+iex(2)> [info] request repo meta: https://github.com/drewolson/scrivener
+iex(2)> [info] request repo meta: https://github.com/jarednorman/plugsnag
+iex(2)> [info] request repo meta: https://github.com/sheharyarn/better_params
+iex(2)> [info] request repo meta: https://github.com/whatyouhide/plug_heartbeat
+iex(2)> [info] request repo meta: https://github.com/elixirstatus/phoenix_html_sanitizer
+iex(2)> [info] request repo meta: https://github.com/doomspork/scrivener_headers
+iex(2)> [info] request repo meta: https://github.com/graphql/libgraphqlparser
+iex(2)> [info] request repo meta: https://github.com/bryanjos/plug_jwt
+iex(2)> [info] request repo meta: https://github.com/cobenian/raygun
+iex(2)> [info] request repo meta: https://github.com/lexmag/blaguth
+iex(2)> [info] request repo meta: https://github.com/sugar-framework/elixir-http-router
+iex(2)> [info] request repo meta: https://github.com/ikeikeikeike/phoenix_html_simplified_helpers
+iex(2)> [info] request repo meta: https://github.com/mneudert/plug_accesslog
+iex(2)> [info] request repo meta: https://github.com/azranel/plug_password
+iex(2)> [info] request repo meta: https://github.com/geolessel/react-phoenix
+iex(2)> [info] request repo meta: https://github.com/mgwidmann/scrivener_html
+iex(2)> [info] request repo meta: https://github.com/henrik/plug_and_play
+iex(2)> [info] request repo meta: https://github.com/slashdotdash/commanded
+iex(2)> [info] request repo meta: https://github.com/elixirdrops/kerosene
+iex(2)> [info] request repo meta: https://github.com/britton-jb/sentinel
+iex(2)> [info] request repo meta: https://github.com/cconstantin/plug_rails_cookie_session_store
+iex(2)> [info] request repo meta: https://github.com/bitgamma/plug_auth
+iex(2)> [info] request repo meta: https://github.com/jxs/phoenix_linguist
+iex(2)> [info] request repo meta: https://github.com/msaraiva/surface
+iex(2)> [info] request repo meta: https://github.com/samueljseay/recaptcha
+iex(2)> [info] request repo meta: https://github.com/stocks29/plug_redirect_https
+iex(2)> [info] request repo meta: https://github.com/sajmoon/mellon
+iex(2)> [info] request repo meta: https://github.com/mschae/cors_plug
+iex(2)> [info] request repo meta: https://github.com/remiprev/plug_canonical_host
+iex(2)> [info] request repo meta: https://github.com/infinitered/torch
+iex(2)> [info] request repo meta: https://github.com/Frost/resin
+iex(2)> [info] request repo meta: https://github.com/phoenixframework/phoenix_live_reload
+iex(2)> [info] request repo meta: https://github.com/DevL/plug_require_header
+iex(2)> [info] request repo meta: https://github.com/whatyouhide/corsica
+iex(2)> [info] request repo meta: https://github.com/Nebo15/multiverse
+iex(2)> [info] request repo meta: https://github.com/ggpasqualino/plug_checkup
+iex(2)> [info] request repo meta: https://github.com/mschae/trailing_format_plug
+iex(2)> [info] request repo meta: https://github.com/bitgamma/crudex
+iex(2)> [info] request repo meta: https://github.com/hlongvu/phoenix_meta_tags
+iex(2)> [info] request repo meta: https://github.com/c-rack/plug_response_header
+iex(2)> [info] request repo meta: https://github.com/opendrops/phoenix-pubsub-postgres
+iex(2)> [info] request repo meta: https://github.com/sergey-chechaev/elixir_ipgeobase
+iex(2)> [info] request repo meta: https://github.com/C404/distance-matrix-api
+iex(2)> [info] request repo meta: https://github.com/bryanjos/geo
+iex(2)> [info] request repo meta: https://github.com/CandyGumdrop/proj
+iex(2)> [info] request repo meta: https://github.com/yltsrc/geocalc
+iex(2)> [info] request repo meta: https://github.com/pkinney/segseg_ex
+iex(2)> [info] request repo meta: https://github.com/knrz/geocoder
+iex(2)> [info] request repo meta: https://github.com/pkinney/topo
+iex(2)> [info] request repo meta: https://github.com/polmuz/elixir-geohash
+iex(2)> [info] request repo meta: https://github.com/UA3MQJ/wheretz
+iex(2)> [info] request repo meta: https://github.com/wstucco/geohash_nif/
+iex(2)> [info] request repo meta: https://github.com/evuez/geohax
+iex(2)> [info] request repo meta: https://github.com/navinpeiris/geoip
+iex(2)> [info] request repo meta: https://github.com/mneudert/geolix
+iex(2)> [info] request repo meta: https://github.com/pareeohnos/geonames-elixir
+iex(2)> [info] request repo meta: https://github.com/nazipov/ip2location-elixir
+iex(2)> [info] request repo meta: https://github.com/whitfin/unsafe
+iex(2)> [info] request repo meta: https://github.com/sviridov/anaphora-elixir
+iex(2)> [info] request repo meta: https://github.com/vic/ok_jose
+iex(2)> [info] request repo meta: https://github.com/zorbash/opus
+iex(2)> [info] request repo meta: https://github.com/liveforeverx/apix
+iex(2)> [info] request repo meta: https://github.com/leifg/backports
+iex(2)> [info] request repo meta: https://github.com/hissssst/pathex
+iex(2)> [info] request repo meta: https://github.com/gabrielpra1/crudry
+iex(2)> [info] request repo meta: https://github.com/mgwidmann/elixir-pattern_tap
+iex(2)> [info] request repo meta: https://github.com/vic/pipe_here
+iex(2)> [info] request repo meta: https://github.com/taiansu/pipe_to
+iex(2)> [info] request repo meta: https://github.com/slashdotdash/eventsourced
+iex(2)> [info] request repo meta: https://github.com/batate/elixir-pipes
+iex(2)> [info] request repo meta: https://github.com/vic/expat
+iex(2)> [info] request repo meta: https://github.com/vic/pit
+iex(2)> [info] request repo meta: https://github.com/camshaft/rebind
+iex(2)> [info] request repo meta: https://github.com/DevL/guardsafe
+iex(2)> [info] request repo meta: https://github.com/RobertDober/lab42_defkw
+iex(2)> [info] request repo meta: https://github.com/awetzel/rulex
+iex(2)> [info] request repo meta: https://github.com/camshaft/lineo
+iex(2)> [info] request repo meta: https://github.com/pragdave/mdef
+iex(2)> [info] request repo meta: https://github.com/meyercm/shorter_maps
+iex(2)> [info] request repo meta: https://github.com/mgwidmann/named_args
+iex(2)> [info] request repo meta: https://github.com/narrowtux/abacus
+iex(2)> [info] request repo meta: https://github.com/Cirru/parser.ex
+[info] request repo meta: https://github.com/lnikkila/elixir-range-extras
+iex(2)> [info] request repo meta: https://github.com/xavier/expletive
+[info] request repo meta: https://github.com/camshaft/mimetype_parser
+[info] request repo meta: https://github.com/polsab/pretty_hex
+[info] request repo meta: https://github.com/fredwu/stemmer
+iex(2)> [info] request repo meta: https://github.com/Joe-noh/colorful
+iex(2)> [info] request repo meta: https://github.com/AntonFagerberg/elixir_bencode
+iex(2)> [info] request repo meta: https://github.com/jrdnull/base58
+iex(2)> [info] request repo meta: https://github.com/Rob-bie/Expr
+iex(2)> [info] request repo meta: https://github.com/okeuday/quickrand
+iex(2)> [info] request repo meta: https://github.com/theocodes/monetized
+[info] request repo meta: https://github.com/FranklinChen/tau
+[info] request repo meta: https://github.com/lidashuang/colors
+iex(2)> [info] request repo meta: https://github.com/liuggio/money
+iex(2)> [info] request repo meta: https://github.com/marianoguerra/erldn
+iex(2)> [info] request repo meta: https://github.com/gjaldon/base58check
+iex(2)> [info] request repo meta: https://github.com/caioceccon/random_string_generator
+iex(2)> [info] request repo meta: https://github.com/zamith/tomlex
+iex(2)> [info] request repo meta: https://github.com/jquadrin/faust
+iex(2)> [info] request repo meta: https://github.com/igas/base62
+iex(2)> [info] request repo meta: https://github.com/whatyouhide/convertat
+iex(2)> [info] request repo meta: https://github.com/edn-format/edn
+iex(2)> [info] request repo meta: https://github.com/knrz/Haikunator
+iex(2)> [info] request repo meta: https://github.com/elixytics/ref_inspector
+iex(2)> [info] request repo meta: https://github.com/gausby/bencode
+iex(2)> [info] request repo meta: https://github.com/my-flow/mt940
+iex(2)> [info] request repo meta: https://github.com/seankay/curtail
+iex(2)> [info] request repo meta: https://github.com/elixytics/ua_inspector
+[info] request repo meta: https://github.com/chatgris/event_source_encoder
+iex(2)> [info] request repo meta: https://github.com/alco/hashids-elixir
+iex(2)> [info] request repo meta: https://github.com/gniquil/ex_brace_expansion
+iex(2)> [info] request repo meta: https://github.com/igas/custom_base
+iex(2)> [info] request repo meta: https://github.com/alehander42/bencoder
+iex(2)> [info] request repo meta: https://github.com/railsmechanic/nanoid
+iex(2)> [info] request repo meta: https://github.com/kipcole9/cldr
+iex(2)> [info] request repo meta: https://github.com/guanting112/elixir_remove_emoji
+iex(2)> [info] request repo meta: https://github.com/rjsamson/hexate
+[info] request repo meta: https://github.com/nazipov/ua_parser2-elixir
+iex(2)> [info] request repo meta: https://github.com/patricksrobertson/secure_random.ex
+iex(2)> [info] request repo meta: https://github.com/ericmj/decimal
+iex(2)> [info] request repo meta: https://github.com/meadsteve/unit_fun
+iex(2)> [info] request repo meta: https://github.com/jtmoulia/neotomex
+iex(2)> [info] request repo meta: https://github.com/cobenian/inet_cidr
+iex(2)> [info] request repo meta: https://github.com/marcelog/ex_rfc3966
+iex(2)> [info] request repo meta: https://github.com/dantame/sentient
+iex(2)> [info] request repo meta: https://github.com/williamgueiros/Brcpfcnpj
+iex(2)> [info] request repo meta: https://github.com/zyro/elixir-uuid
+iex(2)> [info] request repo meta: https://github.com/marcelog/ex_rfc3986
+iex(2)> [info] request repo meta: https://github.com/olhado/dicer
+iex(2)> [info] request repo meta: https://github.com/nurugger07/inflex
+iex(2)> [info] request repo meta: https://github.com/danielberkompas/number
+iex(2)> [info] request repo meta: https://github.com/gpedic/ex_shortuuid
+iex(2)> [info] request repo meta: https://github.com/jfacorro/Eden
+iex(2)> [info] request repo meta: https://github.com/agro1986/caustic
+iex(2)> [info] request repo meta: https://github.com/alisinabh/numero
+iex(2)> [info] request repo meta: https://github.com/carturoch/ex_uc
+iex(2)> [info] request repo meta: https://github.com/lexmag/simetric
+iex(2)> [info] request repo meta: https://github.com/okeuday/uuid
+iex(2)> [info] request repo meta: https://github.com/mroth/exmoji
+iex(2)> [info] request repo meta: https://github.com/edubkendo/kitsune
+iex(2)> [info] request repo meta: https://github.com/lpil/palette
+iex(2)> [info] request repo meta: https://github.com/uesteibar/veritaserum
+iex(2)> [info] request repo meta: https://github.com/h4cc/slugger
+iex(2)> [info] request repo meta: https://github.com/edn-format/edn
+iex(2)> [info] request repo meta: https://github.com/lidashuang/pinyin
+iex(2)> [info] request repo meta: https://github.com/danigulyas/smile
+iex(2)> [info] request repo meta: https://github.com/Joe-noh/ccc
+iex(2)> [info] request repo meta: https://github.com/ma2gedev/ltsvex
+iex(2)> [info] request repo meta: https://github.com/mgamini/elixilorem
+iex(2)> [info] request repo meta: https://github.com/tyrchen/chinese_translation
+iex(2)> [info] request repo meta: https://github.com/woxtu/elixir-mbcs
+iex(2)> [info] request repo meta: https://github.com/c-rack/cidr-elixir
+iex(2)> [info] request repo meta: https://github.com/frpaulas/porterstemmer
+iex(2)> [info] request repo meta: https://github.com/meddle0x53/blogit
+iex(2)> [info] request repo meta: https://github.com/badosu/coil
+iex(2)> [info] request repo meta: https://github.com/pablomartinezalvarez/glayu
+iex(2)> [info] request repo meta: https://github.com/Vesuvium/medusa
+iex(2)> [info] request repo meta: https://github.com/BennyHallett/obelisk
+iex(2)> [info] request repo meta: https://github.com/Dalgona/Serum
+iex(2)> [info] request repo meta: https://github.com/mustafaturan/event_bus
+iex(2)> [info] request repo meta: https://github.com/DeadZen/goldrush
+iex(2)> [info] request repo meta: https://github.com/alfert/reaxive
+iex(2)> [info] request repo meta: https://github.com/jvoegele/wait_for_it
+iex(2)> [info] request repo meta: https://github.com/xou/elixlsx
+iex(2)> [info] request repo meta: https://github.com/leifg/excellent
+iex(2)> [info] request repo meta: https://github.com/kennellroxco/xlsxir
+iex(2)> [info] request repo meta: https://github.com/asonge/erlaudio
+iex(2)> [info] request repo meta: https://github.com/entone/firmata
+iex(2)> [info] request repo meta: https://github.com/bitgamma/synthex
+iex(2)> [info] request repo meta: https://github.com/adjust/airbax
+iex(2)> [info] request repo meta: https://github.com/nobrick/bitmex
+[info] request repo meta: https://github.com/kevinmontuori/digoc
+[info] request repo meta: https://github.com/zabirauf/elixir-ipfs-api
+[info] request repo meta: https://github.com/oivoodoo/exfacebook
+[info] request repo meta: https://github.com/essenciary/feedlex
+[info] request repo meta: https://github.com/jeffutter/honeywell-elixir
+[info] request repo meta: https://github.com/michihuber/mixpanel_ex
+iex(2)> [info] request repo meta: https://github.com/jrichocean/Elixirfm
+iex(2)> [info] request repo meta: https://github.com/bitpay/elixir-client
+iex(2)> [info] request repo meta: https://github.com/romul/airbrake-elixir
+iex(2)> [info] request repo meta: https://github.com/peburrows/kane
+iex(2)> [info] request repo meta: https://github.com/jeffweiss/exgenius
+iex(2)> [info] request repo meta: https://github.com/jeregrine/mixpanel_data_client
+iex(2)> [info] request repo meta: https://github.com/trustatom-oss/elixir-fluent-client
+iex(2)> [info] request repo meta: https://github.com/fazibear/airbrakex
+iex(2)> [info] request repo meta: https://github.com/zensavona/elixtagram
+iex(2)> [info] request repo meta: https://github.com/peburrows/diplomat
+iex(2)> [info] request repo meta: https://github.com/bryanjos/keenex
+iex(2)> [info] request repo meta: https://github.com/Arkar-Aung/mmExchangeRate
+iex(2)> [info] request repo meta: https://github.com/swelham/cashier
+iex(2)> [info] request repo meta: https://github.com/exthereum/ethereumex
+iex(2)> [info] request repo meta: https://github.com/scrogson/exgravatar
+iex(2)> [info] request repo meta: https://github.com/jeffweiss/forcex
+iex(2)> [info] request repo meta: https://github.com/dnsimple/dnsimple-elixir
+iex(2)> [info] request repo meta: https://github.com/BlakeWilliams/Elixir-Cleverbot
+iex(2)> [info] request repo meta: https://github.com/zachgarwood/elixir-amazon-product-advertising-client
+iex(2)> [info] request repo meta: https://github.com/jonahoffline/link_shrinkex
+iex(2)> [info] request repo meta: https://github.com/r-icarus/forecast_io
+iex(2)> [info] request repo meta: https://github.com/bradleyd/exgrid
+iex(2)> [info] request repo meta: https://github.com/zhyu/nadia
+iex(2)> [info] request repo meta: https://github.com/hexedpackets/docker-elixir
+iex(2)> [info] request repo meta: https://github.com/jwarlander/everex
+iex(2)> [info] request repo meta: https://github.com/teerawat1992/omise-elixir
+iex(2)> [info] request repo meta: https://github.com/attm2x/m2x-elixir
+iex(2)> [info] request repo meta: https://github.com/hisea/dockerex
+iex(2)> [info] request repo meta: https://github.com/gregpardo/coinbase-elixir
+iex(2)> [info] request repo meta: https://github.com/attm2x/m2x-erlang
+iex(2)> [info] request repo meta: https://github.com/knewter/everyoneapi
+iex(2)> [info] request repo meta: https://github.com/joshnuss/commerce_billing
+iex(2)> [info] request repo meta: https://github.com/adamkittelson/dogstatsd-elixir
+iex(2)> [info] request repo meta: https://github.com/teodor-pripoae/opbeat
+iex(2)> [info] request repo meta: https://github.com/dukex/gcmex
+iex(2)> [info] request repo meta: https://github.com/duartejc/mailchimp
+iex(2)> [info] request repo meta: https://github.com/knewter/dpd_client
+iex(2)> [info] request repo meta: https://github.com/securingsincity/ex_codeship
+[info] request repo meta: https://github.com/echavezNS/conekta-elixir
+iex(2)> [info] request repo meta: https://github.com/chvanikoff/apns4ex
+iex(2)> [info] request repo meta: https://github.com/mattweldon/exjira
+iex(2)> [info] request repo meta: https://github.com/ride/pagexduty
+iex(2)> [info] request repo meta: https://github.com/prodis/correios-cep-elixir
+iex(2)> [info] request repo meta: https://github.com/chrismccord/mailgun
+iex(2)> [info] request repo meta: https://github.com/GoogleCloudPlatform/elixir-google-api
+iex(2)> [info] request repo meta: https://github.com/trenpixster/asanaficator
+[info] request repo meta: https://github.com/mtwtkman/exlingr
+iex(2)> [info] request repo meta: https://github.com/CargoSense/ex_statsd
+iex(2)> [info] request repo meta: https://github.com/slogsdon/mandrill-elixir
+iex(2)> [info] request repo meta: https://github.com/ammmir/elixir-dropbox
+iex(2)> [info] request repo meta: https://github.com/bryanjos/marvel
+iex(2)> [info] request repo meta: https://github.com/sheharyarn/explay
+[info] request repo meta: https://github.com/chatgris/currently
+[info] request repo meta: https://github.com/danielberkompas/ex_twilio
+iex(2)> [info] request repo meta: https://github.com/elixircnx/parse_elixir_client
+iex(2)> [info] request repo meta: https://github.com/techgaun/darkskyx
+iex(2)> [info] request repo meta: https://github.com/Assembla/ex_assembla_api
+iex(2)> [info] request repo meta: https://github.com/carlo-colombo/dublin-bus-api
+iex(2)> [info] request repo meta: https://github.com/arthurcolle/exstagram
+iex(2)> [info] request repo meta: https://github.com/danielberkompas/ex_twiml
+iex(2)> [info] request repo meta: https://github.com/GrandCru/GoogleSheets
+iex(2)> [info] request repo meta: https://github.com/maarek/ParsEx
+iex(2)> [info] request repo meta: https://github.com/blendmedia/mexpanel
+iex(2)> [info] request repo meta: https://github.com/lukeed/elixir-digitalocean
+iex(2)> [info] request repo meta: https://github.com/ayrat555/balalaika_bear
+iex(2)> [info] request repo meta: https://github.com/jeffutter/particle-elixir
+iex(2)> [info] request repo meta: https://github.com/essenciary/pocketex
+[info] request repo meta: https://github.com/walterbm/govtrack-elixir
+iex(2)> [info] request repo meta: https://github.com/rozap/edgarex
+iex(2)> [info] request repo meta: https://github.com/aviabird/gringotts
+iex(2)> [info] request repo meta: https://github.com/deadkarma/exdesk
+iex(2)> [info] request repo meta: https://github.com/parroty/extwitter
+iex(2)> [info] request repo meta: https://github.com/zensavona/paypal
+iex(2)> [info] request repo meta: https://github.com/novabyte/pathway
+iex(2)> [info] request repo meta: https://github.com/marcelog/elixir_authorizenet
+iex(2)> [info] request repo meta: https://github.com/oscar-lopez/exurban
+iex(2)> [info] request repo meta: https://github.com/koudelka/elixir-riemann
+iex(2)> [info] request repo meta: https://github.com/kkirsche/Redtube_Elixir
+[info] request repo meta: https://github.com/activemerchant/active_merchant
+iex(2)> [info] request repo meta: https://github.com/bryanjos/balanced-elixir
+iex(2)> [info] request repo meta: https://github.com/C404/sift_ex
+iex(2)> [info] request repo meta: https://github.com/era/pay
+iex(2)> [info] request repo meta: https://github.com/mweibel/facebook.ex
+[info] request repo meta: https://github.com/BlakeWilliams/Elixir-Slack
+iex(2)> [info] request repo meta: https://github.com/ma2gedev/qiita_ex
+iex(2)> [info] request repo meta: https://github.com/ccsteam/ex-telegram-client
+iex(2)> [info] request repo meta: https://github.com/bandwidthcom/elixir-bandwidth
+iex(2)> [info] request repo meta: https://github.com/MonkeyIsNull/reddhl
+iex(2)> [info] request repo meta: https://github.com/JonGretar/Hexoku
+iex(2)> [info] request repo meta: https://github.com/nsweeting/shopify
+iex(2)> [info] request repo meta: https://github.com/edgurgel/pusher
+iex(2)> [info] request repo meta: https://github.com/waynehoover/unsplash-elixir
+iex(2)> [info] request repo meta: https://github.com/danielberkompas/telephonist
+iex(2)> [info] request repo meta: https://github.com/tony612/qiniu
+iex(2)> [info] request repo meta: https://github.com/Raynes/reap
+iex(2)> [info] request repo meta: https://github.com/KazuCocoa/simple_app_reporter_ex
+iex(2)> [info] request repo meta: https://github.com/robconery/stripity-stripe
+iex(2)> [info] request repo meta: https://github.com/lee-dohm/semver
+iex(2)> [info] request repo meta: https://github.com/traitify/traitify_elixir
+iex(2)> [info] request repo meta: https://github.com/ikeikeikeike/bing_translator
+iex(2)> [info] request repo meta: https://github.com/SenecaSystems/stripe
+iex(2)> [info] request repo meta: https://github.com/lexmag/statix
+iex(2)> [info] request repo meta: https://github.com/codedge-llc/pigeon
+iex(2)> [info] request repo meta: https://github.com/alexgaribay/sendgrid_elixir
+iex(2)> [info] request repo meta: https://github.com/edgurgel/tentacat
+iex(2)> [info] request repo meta: https://github.com/Hentioe/telegex
+iex(2)> [info] request repo meta: https://github.com/radzserg/rstwitter
+iex(2)> [info] request repo meta: https://github.com/avitex/elixir-vultr
+iex(2)> [info] request repo meta: https://github.com/SparkPost/elixir-sparkpost
+iex(2)> [info] request repo meta: https://github.com/tagplay/elixir-tagplay
+iex(2)> [info] request repo meta: https://github.com/paulodiniz/xe
+iex(2)> [info] request repo meta: https://github.com/katgironpe/random_user
+iex(2)> [info] request repo meta: https://github.com/rafaelss/zanox
+iex(2)> [info] request repo meta: https://github.com/katgironpe/ui_faces
+iex(2)> [info] request repo meta: https://github.com/adamkittelson/simplex
+iex(2)> [info] request repo meta: https://github.com/bunyan-logger/bunyan
+iex(2)> [info] request repo meta: https://github.com/navinpeiris/logster
+iex(2)> [info] request repo meta: https://github.com/rwdaigle/metrix
+iex(2)> [info] request repo meta: https://github.com/khia/exlager
+iex(2)> [info] request repo meta: https://github.com/appcues/exsentry
+iex(2)> [info] request repo meta: https://github.com/dalmatinerdb/mstore
+iex(2)> [info] request repo meta: https://github.com/jschniper/gelf_logger
+iex(2)> [info] request repo meta: https://github.com/duartejc/rogger
+iex(2)> [info] request repo meta: https://github.com/honeybadger-io/honeybadger-elixir
+iex(2)> [info] request repo meta: https://github.com/elixir-addicts/rollbax
+iex(2)> [info] request repo meta: https://github.com/LeeroyDing/json_logger
+iex(2)> [info] request repo meta: https://github.com/craigp/slack_logger_backend
+iex(2)> [info] request repo meta: https://github.com/basho/lager
+iex(2)> [info] request repo meta: https://github.com/Vagabond/erlang-syslog
+iex(2)> [info] request repo meta: https://github.com/PSPDFKit-labs/lager_logger
+iex(2)> [info] request repo meta: https://github.com/timberio/timber-elixir
+iex(2)> [info] request repo meta: https://github.com/jclem/logfmt-elixir
+iex(2)> [info] request repo meta: https://github.com/unifysell/youtrack_logger_backend
+iex(2)> [info] request repo meta: https://github.com/marcelog/logger_logstash_backend
+iex(2)> [info] request repo meta: https://github.com/pragmaticivan/logglix
+iex(2)> [info] request repo meta: https://github.com/soranoba/bbmustache
+iex(2)> [info] request repo meta: https://github.com/nurugger07/calliope
+iex(2)> [info] request repo meta: https://github.com/zambal/eml
+iex(2)> [info] request repo meta: https://github.com/rwdaigle/exgen
+iex(2)> [info] request repo meta: https://github.com/rstacruz/expug
+iex(2)> [info] request repo meta: https://github.com/schultyy/Mustache.ex
+iex(2)> [info] request repo meta: https://github.com/jui/mustachex
+iex(2)> [info] request repo meta: https://github.com/slime-lang/slime
+iex(2)> [info] request repo meta: https://github.com/ijcd/taggart
+iex(2)> [info] request repo meta: https://github.com/sugar-framework/templates
+iex(2)> [info] request repo meta: https://github.com/abitdodgy/gibran
+iex(2)> [info] request repo meta: https://github.com/abitdodgy/words_counted
+iex(2)> [info] request repo meta: https://github.com/minibikini/paasaa
+iex(2)> [info] request repo meta: https://github.com/petrovich/petrovich_elixir
+iex(2)> [info] request repo meta: https://github.com/pjhampton/woolly
+iex(2)> [info] request repo meta: https://github.com/KittyHeaven/blue_bird
+iex(2)> [info] request repo meta: https://github.com/api-hogs/bureaucrat
+iex(2)> [info] request repo meta: https://github.com/elixir-lang/ex_doc
+iex(2)> [info] request repo meta: https://github.com/JonGretar/ExDocDash
+iex(2)> [info] request repo meta: https://github.com/yesmeck/hexdocset
+iex(2)> [info] request repo meta: https://github.com/falood/maru_swagger
+iex(2)> [info] request repo meta: https://github.com/smoku/phoenix_api_docs
+iex(2)> [info] request repo meta: https://github.com/xerions/phoenix_swagger
+iex(2)> [info] request repo meta: https://github.com/brainn-co/xcribe
+iex(2)> [info] request repo meta: https://github.com/PragTob/benchee
+iex(2)> [info] request repo meta: https://github.com/alco/benchfella
+iex(2)> [info] request repo meta: https://github.com/joekain/bmark
+iex(2)> [info] request repo meta: https://github.com/pusewicz/descriptive_statistics
+iex(2)> [info] request repo meta: https://github.com/synrc/mtx
+iex(2)> [info] request repo meta: https://github.com/safwank/Numerix
+iex(2)> [info] request repo meta: https://github.com/Tyler-pierce/simplestatex
+iex(2)> [info] request repo meta: https://github.com/msharp/elixir-statistics
+iex(2)> [info] request repo meta: https://github.com/whitfin/cachex
+iex(2)> [info] request repo meta: https://github.com/sasa1977/con_cache
+iex(2)> [info] request repo meta: https://github.com/tsharju/elixir_locker
+iex(2)> [info] request repo meta: https://github.com/SpotIM/gen_spoxy
+iex(2)> [info] request repo meta: https://github.com/jr0senblum/jc
+iex(2)> [info] request repo meta: https://github.com/wooga/locker
+iex(2)> [info] request repo meta: https://github.com/arago/lru_cache
+iex(2)> [info] request repo meta: https://github.com/melpon/memoize
+iex(2)> [info] request repo meta: https://github.com/cabol/nebulex
+iex(2)> [info] request repo meta: https://github.com/whitfin/stash
+iex(2)> [info] request repo meta: https://github.com/Betree/atomex
+iex(2)> [info] request repo meta: https://github.com/michaelnisi/feeder
+iex(2)> [info] request repo meta: https://github.com/manukall/feeder_ex
+iex(2)> [info] request repo meta: https://github.com/umurgdk/elixir-feedme
+iex(2)> [info] request repo meta: https://github.com/urbanserj/hsnif
+iex(2)> [info] request repo meta: https://github.com/rossjones/nifty
+iex(2)> [info] request repo meta: https://github.com/hansihe/Rustler
+iex(2)> [info] request repo meta: https://github.com/annkissam/akd
+iex(2)> [info] request repo meta: https://github.com/HashNuke/ansible-elixir-stack
+iex(2)> [info] request repo meta: https://github.com/labzero/bootleg
+iex(2)> [info] request repo meta: https://github.com/rubencaro/bottler
+iex(2)> [info] request repo meta: https://github.com/boldpoker/edeliver
+iex(2)> [info] request repo meta: https://github.com/CrowdHailer/elixir-on-docker
+iex(2)> [info] request repo meta: https://github.com/joeyates/exdm
+iex(2)> [info] request repo meta: https://github.com/miros/exreleasy
+iex(2)> [info] request repo meta: https://github.com/hashrocket/gatling
+iex(2)> [info] request repo meta: https://github.com/HashNuke/heroku-buildpack-elixir
+iex(2)> [info] request repo meta: https://github.com/jfrolich/smoothie
+iex(2)> [info] request repo meta: https://github.com/thoughtbot/bamboo
+iex(2)> [info] request repo meta: https://github.com/Betree/burnex
+iex(2)> [info] request repo meta: https://github.com/swoosh/swoosh
+iex(2)> [info] request repo meta: https://github.com/zmoshansky/echo
+iex(2)> [info] request repo meta: https://github.com/KamilLelonek/ex_postmark
+iex(2)> [info] request repo meta: https://github.com/Vagabond/gen_smtp
+iex(2)> [info] request repo meta: https://github.com/craigp/elixir-gmail
+iex(2)> [info] request repo meta: https://github.com/DockYard/elixir-mail
+iex(2)> [info] request repo meta: https://github.com/antp/mailer
+iex(2)> [info] request repo meta: https://github.com/awetzel/mailibex
+iex(2)> [info] request repo meta: https://github.com/kamilc/mailman
+iex(2)> [info] request repo meta: https://github.com/acutario/ravenx
+iex(2)> [info] request repo meta: https://github.com/shhavel/uri_query
+iex(2)> [info] request repo meta: https://github.com/devshane/mnemonic_slugs
+iex(2)> [info] request repo meta: https://github.com/gamache/fuzzyurl.js
+[info] request repo meta: https://github.com/CrowdHailer/Ace
+iex(2)> [info] request repo meta: https://github.com/pezra/ex-uri-template
+iex(2)> [info] request repo meta: https://github.com/mochi/mochiweb
+[info] request repo meta: https://github.com/SebastianSzturo/bolt
+[info] request repo meta: https://github.com/ninenines/gun
+iex(2)> [info] request repo meta: https://github.com/slogsdon/plug-web-socket
+iex(2)> [info] request repo meta: https://github.com/meh/cauldron
+iex(2)> [info] request repo meta: https://github.com/uesteibar/neuron
+iex(2)> [info] request repo meta: https://github.com/benoitc/hackney
+iex(2)> [info] request repo meta: https://github.com/stuart/elixir-webdriver
+iex(2)> [info] request repo meta: https://github.com/fredwu/crawler
+iex(2)> [info] request repo meta: https://github.com/kemonomachi/yuri
+iex(2)> [info] request repo meta: https://github.com/slogsdon/http
+iex(2)> [info] request repo meta: https://github.com/wait1/plug_wait1
+iex(2)> [info] request repo meta: https://github.com/oltarasenko/crawly
+iex(2)> [info] request repo meta: https://github.com/techgaun/http_digex
+iex(2)> [info] request repo meta: https://github.com/KazuCocoa/http_proxy
+iex(2)> [info] request repo meta: https://github.com/knutin/elli
+[info] request repo meta: https://github.com/CrowdHailer/raxx
+iex(2)> [info] request repo meta: https://github.com/sascha-wolf/etag_plug
+iex(2)> [info] request repo meta: https://github.com/peburrows/river
+iex(2)> [info] request repo meta: https://github.com/edgurgel/httpoison
+iex(2)> [info] request repo meta: https://github.com/Anonyfox/elixir-scrape
+iex(2)> [info] request repo meta: https://github.com/myfreeweb/httpotion
+iex(2)> [info] request repo meta: https://github.com/swelham/ivar
+iex(2)> [info] request repo meta: https://github.com/pkinney/explode
+iex(2)> [info] request repo meta: https://github.com/marcelotto/sparql_client
+iex(2)> [info] request repo meta: https://github.com/talko/lhttpc
+iex(2)> [info] request repo meta: https://github.com/parroty/exvcr
+iex(2)> [info] request repo meta: https://github.com/gamache/fuzzyurl.ex
+iex(2)> [info] request repo meta: https://github.com/MyMedsAndMe/spell
+iex(2)> [info] request repo meta: https://github.com/ericmj/mint
+iex(2)> [info] request repo meta: https://github.com/gamache/fuzzyurl.rb
+iex(2)> [info] request repo meta: https://github.com/teamon/tesla
+iex(2)> [info] request repo meta: https://github.com/narrowtux/Tube
+iex(2)> [info] request repo meta: https://github.com/hexpm/rebar3_hex
+iex(2)> [info] request repo meta: https://github.com/zampino/exnn
+iex(2)> [info] request repo meta: https://github.com/fredwu/simple_bayes
+iex(2)> [info] request repo meta: https://github.com/ricn/librex
+iex(2)> [info] request repo meta: https://github.com/jquadrin/cassius
+iex(2)> [info] request repo meta: https://github.com/lowks/Radpath
+iex(2)> [info] request repo meta: https://github.com/pragdave/dir_walker
+iex(2)> [info] request repo meta: https://github.com/whitfin/sentix
+iex(2)> [info] request repo meta: https://github.com/arvidkahl/sizeable
+iex(2)> [info] request repo meta: https://github.com/bbense/elixgrep
+iex(2)> [info] request repo meta: https://github.com/elixir-waffle/waffle
+iex(2)> [info] request repo meta: https://github.com/slashmili/ex_guard
+iex(2)> [info] request repo meta: https://github.com/ricn/zarex
+iex(2)> [info] request repo meta: https://github.com/gniquil/ex_minimatch
+iex(2)> [info] request repo meta: https://github.com/keichan34/exfile
+iex(2)> [info] request repo meta: https://github.com/falood/exfswatch
+iex(2)> [info] request repo meta: https://github.com/rkotze/eye_drops
+iex(2)> [info] request repo meta: https://github.com/ahtung/format_parser.ex
+iex(2)> [info] request repo meta: https://github.com/synrc/fs
+iex(2)> [info] request repo meta: https://github.com/ryo33/fwatch-ex
+iex(2)> [info] request repo meta: https://github.com/sticksnleaves/accent
+iex(2)> [info] request repo meta: https://github.com/devinus/detergent
+iex(2)> [info] request repo meta: https://github.com/r-icarus/detergentex
+iex(2)> [info] request repo meta: https://github.com/falood/maru
+iex(2)> [info] request repo meta: https://github.com/exstruct/mazurka
+iex(2)> [info] request repo meta: https://github.com/christopheradams/plug_rest
+iex(2)> [info] request repo meta: https://github.com/edgurgel/signaturex
+iex(2)> [info] request repo meta: https://github.com/meh/urna
+iex(2)> [info] request repo meta: https://github.com/sticksnleaves/versionary
+iex(2)> [info] request repo meta: https://github.com/fishcakez/core
+iex(2)> [info] request repo meta: https://github.com/saleyn/erlexec
+iex(2)> [info] request repo meta: https://github.com/danielberkompas/immortal
+iex(2)> [info] request repo meta: https://github.com/reset/libex-config
+iex(2)> [info] request repo meta: https://github.com/awetzel/adap
+iex(2)> [info] request repo meta: https://github.com/antirez/disque
+[info] request repo meta: https://github.com/sorentwo/oban
+iex(2)> [info] request repo meta: https://github.com/akira/exq
+iex(2)> [info] request repo meta: https://github.com/fredwu/opq
+iex(2)> [info] request repo meta: https://github.com/d0rc/exrabbit
+iex(2)> [info] request repo meta: https://github.com/okeuday/pqueue
+iex(2)> [info] request repo meta: https://github.com/pma/amqp
+iex(2)> [info] request repo meta: https://github.com/scripbox/flume
+iex(2)> [info] request repo meta: https://github.com/dashbitco/broadway
+[info] request repo meta: https://github.com/sheharyarn/que
+iex(2)> [info] request repo meta: https://github.com/falood/queuex
+iex(2)> [info] request repo meta: https://github.com/meltwater/gen_rmq
+iex(2)> [info] request repo meta: https://github.com/conduitframework/conduit
+iex(2)> [info] request repo meta: https://github.com/Nebo15/rbmq
+iex(2)> [info] request repo meta: https://github.com/takscape/elixir-heapq
+iex(2)> [info] request repo meta: https://github.com/costaraphael/cspex
+iex(2)> [info] request repo meta: https://github.com/koudelka/honeydew
+iex(2)> [info] request repo meta: https://github.com/samphilipd/rihanna
+iex(2)> [info] request repo meta: https://github.com/aforward/sadbus
+iex(2)> [info] request repo meta: https://github.com/mbuhot/ecto_job
+iex(2)> [info] request repo meta: https://github.com/suvash/hulaaki
+iex(2)> [info] request repo meta: https://github.com/shinyscorpion/task_bunny
+iex(2)> [info] request repo meta: https://github.com/anoskov/kafka-consumer
+iex(2)> [info] request repo meta: https://github.com/wistia/elixir_nsq
+iex(2)> [info] request repo meta: https://github.com/jsvisa/elixir_talk
+iex(2)> [info] request repo meta: https://github.com/joakimk/toniq
+iex(2)> [info] request repo meta: https://github.com/kafkaex/kafka_ex
+iex(2)> [info] request repo meta: https://github.com/edgurgel/verk
+iex(2)> [info] request repo meta: https://github.com/basho/enm
+iex(2)> [info] request repo meta: https://github.com/mosic/exdisque
+iex(2)> [info] request repo meta: https://github.com/pragdave/work_queue
+iex(2)> [info] request repo meta: https://github.com/synrc/mqs
+iex(2)> [info] request repo meta: https://github.com/bitcrowd/chromic_pdf
+iex(2)> [info] request repo meta: https://github.com/SenecaSystems/gutenex
+iex(2)> [info] request repo meta: https://github.com/ricn/pdf2htmlex
+iex(2)> [info] request repo meta: https://github.com/gutschilla/elixir-pdf-generator
+iex(2)> [info] request repo meta: https://github.com/coletiv/puppeteer-pdf
+iex(2)> [info] request repo meta: https://github.com/princemaple/abnf_parsec
+iex(2)> [info] request repo meta: https://github.com/marcelog/ex_abnf
+iex(2)> [info] request repo meta: https://github.com/jamesotron/lex_luthor
+iex(2)> [info] request repo meta: https://github.com/boydm/scenic
+iex(2)> [info] request repo meta: https://github.com/sorentwo/flippant
+iex(2)> [info] request repo meta: https://github.com/tompave/fun_with_flags
+iex(2)> [info] request repo meta: https://github.com/securingsincity/molasses
+iex(2)> [info] request repo meta: https://github.com/aerosol/tabula
+iex(2)> [info] request repo meta: https://github.com/bennyhallett/anubis
+iex(2)> [info] request repo meta: https://github.com/tuvistavie/ex_cli
+iex(2)> [info] request repo meta: https://github.com/behind-design/ex_prompt
+iex(2)> [info] request repo meta: https://github.com/msoedov/firex
+iex(2)> [info] request repo meta: https://github.com/jcomellas/getopt
+iex(2)> [info] request repo meta: https://github.com/khusnetdinov/loki
+iex(2)> [info] request repo meta: https://github.com/savonarola/optimus
+iex(2)> [info] request repo meta: https://github.com/henrik/progress_bar
+iex(2)> [info] request repo meta: https://github.com/ndreynolds/ratatouille
+iex(2)> [info] request repo meta: https://github.com/codedge-llc/scribe
+iex(2)> [info] request repo meta: https://github.com/djm/table_rex
+iex(2)> [info] request repo meta: https://github.com/talklittle/ffmpex
+iex(2)> [info] request repo meta: https://github.com/talklittle/silent_video
+iex(2)> [info] request repo meta: https://github.com/dalmatinerdb/dflow
+iex(2)> [info] request repo meta: https://github.com/sasa1977/exactor
+iex(2)> [info] request repo meta: https://github.com/awetzel/exos
+iex(2)> [info] request repo meta: https://github.com/antonmi/flowex
+iex(2)> [info] request repo meta: https://github.com/tattdcodemonkey/mon_handler
+iex(2)> [info] request repo meta: https://github.com/camshaft/pool_ring
+iex(2)> [info] request repo meta: https://github.com/devinus/poolboy
+iex(2)> [info] request repo meta: https://github.com/seth/pooler
+iex(2)> [info] request repo meta: https://github.com/fishcakez/sbroker
+iex(2)> [info] request repo meta: https://github.com/sasa1977/workex
+iex(2)> [info] request repo meta: https://github.com/joshnuss/xml_builder
+iex(2)> [info] request repo meta: https://github.com/gunnar2k/elixir-map-to-xml
+iex(2)> [info] request repo meta: https://github.com/homanchou/elixir-xml-to-map
+iex(2)> [info] request repo meta: https://github.com/ewildgoose/elixir-xml_rpc
+iex(2)> [info] request repo meta: https://github.com/willemdj/erlsom
+iex(2)> [info] request repo meta: https://github.com/pwoolcoc/exmerl
+iex(2)> [info] request repo meta: https://github.com/expelledboy/exml
+iex(2)> [info] request repo meta: https://github.com/Overbryd/exoml
+iex(2)> [info] request repo meta: https://github.com/processone/fast_xml
+iex(2)> [info] request repo meta: https://github.com/mischov/meeseeks
+iex(2)> [info] request repo meta: https://github.com/nhu313/Quinn
+iex(2)> [info] request repo meta: https://github.com/qcam/saxy
+iex(2)> [info] request repo meta: https://github.com/awetzel/sweet_xml
+iex(2)> [info] request repo meta: https://github.com/josephwilk/amrita
+iex(2)> [info] request repo meta: https://github.com/joaothallis/elixir-auto-test
+[info] request repo meta: https://github.com/bernardolins/fake_server
+[info] request repo meta: https://github.com/archan937/mecks_unit
+[info] request repo meta: https://github.com/klarna/ponos
+iex(2)> [info] request repo meta: https://github.com/antonmi/espec
+iex(2)> [info] request repo meta: https://github.com/eproxus/meck
+iex(2)> [info] request repo meta: https://github.com/igas/faker
+iex(2)> [info] request repo meta: https://github.com/coryodaniel/apocryphal
+iex(2)> [info] request repo meta: https://github.com/alco/mix-erlang-tasks
+[info] request repo meta: https://github.com/antonmi/espec_phoenix
+iex(2)> [info] request repo meta: https://github.com/batate/blacksmith
+iex(2)> [info] request repo meta: https://github.com/GesJeremie/faker-elixir
+[info] request repo meta: https://github.com/ma2gedev/power_assert_ex
+iex(2)> [info] request repo meta: https://github.com/dantswain/mix_eunit
+iex(2)> [info] request repo meta: https://github.com/thoughtbot/ex_machina
+iex(2)> [info] request repo meta: https://github.com/project-fifo/fqc
+iex(2)> [info] request repo meta: https://github.com/manopapad/proper
+iex(2)> [info] request repo meta: https://github.com/KazuCocoa/elixir-gimei
+iex(2)> [info] request repo meta: https://github.com/benjamintanweihao/blitzy
+iex(2)> [info] request repo meta: https://github.com/KazuCocoa/ex_parameterized
+iex(2)> [info] request repo meta: https://github.com/pspdfkit-labs/bypass
+iex(2)> [info] request repo meta: https://github.com/lpil/mix-test.watch
+iex(2)> [info] request repo meta: https://github.com/HashNuke/hound
+iex(2)> [info] request repo meta: https://github.com/vic/setup_tag
+iex(2)> [info] request repo meta: https://github.com/drewolson/ex_spec
+iex(2)> [info] request repo meta: https://github.com/talentdeficit/mixunit
+iex(2)> [info] request repo meta: https://github.com/polleverywhere/chaperon
+iex(2)> [info] request repo meta: https://github.com/batate/shouldi
+iex(2)> [info] request repo meta: https://github.com/obmarg/ex_unit_fixtures
+iex(2)> [info] request repo meta: https://github.com/stevegraham/hypermock
+iex(2)> [info] request repo meta: https://github.com/genericlady/chemistry
+iex(2)> [info] request repo meta: https://github.com/DefactoSoftware/test_selector
+iex(2)> [info] request repo meta: https://github.com/jjh42/mock
+iex(2)> [info] request repo meta: https://github.com/campezzi/ignorant
+iex(2)> [info] request repo meta: https://github.com/navinpeiris/ex_unit_notifier
+iex(2)> [info] request repo meta: https://github.com/facto/test_that_json
+iex(2)> [info] request repo meta: https://github.com/appunite/mockery
+iex(2)> [info] request repo meta: https://github.com/parroty/excheck
+iex(2)> [info] request repo meta: https://github.com/PSPDFKit-labs/cobertura_cover
+iex(2)> [info] request repo meta: https://github.com/stuart/tuco_tuco
+iex(2)> [info] request repo meta: https://github.com/Driftrock/mockingbird
+iex(2)> [info] request repo meta: https://github.com/for-GET/katt
+iex(2)> [info] request repo meta: https://github.com/sonerdy/double
+iex(2)> [info] request repo meta: https://github.com/wesovilabs/exkorpion
+iex(2)> [info] request repo meta: https://github.com/antp/kovacs
+iex(2)> [info] request repo meta: https://github.com/keathley/wallaby
+iex(2)> [info] request repo meta: https://github.com/sinetris/factory_girl_elixir
+iex(2)> [info] request repo meta: https://github.com/xerions/ecto_it
+iex(2)> [info] request repo meta: https://github.com/sproutapp/pavlov
+iex(2)> [info] request repo meta: https://github.com/eproxus/meck
+iex(2)> [info] request repo meta: https://github.com/FabioBatSilva/efrisby
+iex(2)> [info] request repo meta: https://github.com/xavier/plug_test_helpers
+iex(2)> [info] request repo meta: https://github.com/meadsteve/white-bread
+iex(2)> [info] request repo meta: https://github.com/awetzel/gitex
+iex(2)> [info] request repo meta: https://github.com/ikeikeikeike/exkanji
+iex(2)> [info] request repo meta: https://github.com/ikeikeikeike/exromaji
+iex(2)> [info] request repo meta: https://github.com/alexfilatov/getatrex
+iex(2)> [info] request repo meta: https://github.com/elixir-lang/gettext
+iex(2)> [info] request repo meta: https://github.com/chrismccord/linguist
+iex(2)> [info] request repo meta: https://github.com/Arkar-Aung/ParabaikElixirConverter
+iex(2)> [info] request repo meta: https://github.com/belaustegui/trans
+iex(2)> [info] request repo meta: https://github.com/meh/amnesia
+iex(2)> [info] request repo meta: https://github.com/s-m-i-t-a/database_url
+iex(2)> [info] request repo meta: https://github.com/danielberkompas/ecto_validation_case
+iex(2)> [info] request repo meta: https://github.com/azranel/ecto_facade
+[info] request repo meta: https://github.com/ephe-meral/ex_sider
+[info] request repo meta: https://github.com/dockyard/inquisitor
+[info] request repo meta: https://github.com/mysql-otp/mysql-otp
+[info] request repo meta: https://github.com/heroku/redo
+iex(2)> [info] request repo meta: https://github.com/skovsgaard/exleveldb
+iex(2)> [info] request repo meta: https://github.com/coryodaniel/arbor
+iex(2)> [info] request repo meta: https://github.com/DockYard/ecto_fixtures
+iex(2)> [info] request repo meta: https://github.com/edubkendo/datomex
+iex(2)> [info] request repo meta: https://github.com/Frost/isn
+iex(2)> [info] request repo meta: https://github.com/tjheeta/mysqlex
+iex(2)> [info] request repo meta: https://github.com/gjaldon/ectophile
+iex(2)> [info] request repo meta: https://github.com/KamilLelonek/exnumerator
+iex(2)> [info] request repo meta: https://github.com/dalmatinerdb/ddb_client
+iex(2)> [info] request repo meta: https://github.com/hamiltop/rethinkdb-elixir
+iex(2)> [info] request repo meta: https://github.com/stavro/arc_ecto
+iex(2)> [info] request repo meta: https://github.com/artemeff/exredis
+iex(2)> [info] request repo meta: https://github.com/lau/calecto
+iex(2)> [info] request repo meta: https://github.com/radar/elastic
+iex(2)> [info] request repo meta: https://github.com/florinpatrascu/neo4j_sips
+iex(2)> [info] request repo meta: https://github.com/chrismccord/atlas
+iex(2)> [info] request repo meta: https://github.com/fazibear/defql
+iex(2)> [info] request repo meta: https://github.com/joshdholtz/ecto-lazy-float
+iex(2)> [info] request repo meta: https://github.com/florinpatrascu/neo4j_sips_models
+iex(2)> [info] request repo meta: https://github.com/drewkerrigan/riak-elixir-client
+iex(2)> [info] request repo meta: https://github.com/seaneshbaugh/exseed
+iex(2)> [info] request repo meta: https://github.com/synrc/kvs
+iex(2)> [info] request repo meta: https://github.com/xerions/ecto_migrate
+iex(2)> [info] request repo meta: https://github.com/pma/riak_ecto
+iex(2)> [info] request repo meta: https://github.com/werbitzky/elastix
+iex(2)> [info] request repo meta: https://github.com/jxub/barrel_ex
+iex(2)> [info] request repo meta: https://github.com/wooga/eredis
+iex(2)> [info] request repo meta: https://github.com/meh/dexts
+iex(2)> [info] request repo meta: https://github.com/gameanalytics/panoramix
+iex(2)> [info] request repo meta: https://github.com/florinpatrascu/bolt_sips
+iex(2)> [info] request repo meta: https://github.com/dcarneiro/exsolr
+iex(2)> [info] request repo meta: https://github.com/novabyte/diver
+iex(2)> [info] request repo meta: https://github.com/gausby/level
+iex(2)> [info] request repo meta: https://github.com/Nebo15/ecto_mnesia
+iex(2)> [info] request repo meta: https://github.com/tsloughter/erlastic_search
+iex(2)> [info] request repo meta: https://github.com/izelnakri/paper_trail
+iex(2)> [info] request repo meta: https://github.com/cabol/shards
+iex(2)> [info] request repo meta: https://github.com/zovafit/ecto-ordered
+iex(2)> [info] request repo meta: https://github.com/bitgamma/boltun
+iex(2)> [info] request repo meta: https://github.com/dalmatinerdb/dproto
+iex(2)> [info] request repo meta: https://github.com/bettyblocks/sql_dust
+iex(2)> [info] request repo meta: https://github.com/exponentially/extreme
+iex(2)> [info] request repo meta: https://github.com/xerions/mariaex
+iex(2)> [info] request repo meta: https://github.com/Nebo15/ecto_paging
+iex(2)> [info] request repo meta: https://github.com/mmzeeman/esqlite
+iex(2)> [info] request repo meta: https://github.com/dalmatinerdb/dqe
+iex(2)> [info] request repo meta: https://github.com/sheharyarn/memento
+iex(2)> [info] request repo meta: https://github.com/mneudert/caylir
+iex(2)> [info] request repo meta: https://github.com/sofakingworld/pillar
+iex(2)> [info] request repo meta: https://github.com/jazzyb/sqlite_ecto
+iex(2)> [info] request repo meta: https://github.com/sheharyarn/ecto_rut
+iex(2)> [info] request repo meta: https://github.com/vic/comeonin_ecto_password
+iex(2)> [info] request repo meta: https://github.com/meh/exts
+iex(2)> [info] request repo meta: https://github.com/whitfin/eternal
+iex(2)> [info] request repo meta: https://github.com/mmmries/sqlitex
+iex(2)> [info] request repo meta: https://github.com/MishaConway/ecto_shortcuts
+iex(2)> [info] request repo meta: https://github.com/elixir-ecto/ecto
+iex(2)> [info] request repo meta: https://github.com/antipax/ets_map
+iex(2)> [info] request repo meta: https://github.com/wojtekmach/github_ecto
+iex(2)> [info] request repo meta: https://github.com/robconery/moebius
+iex(2)> [info] request repo meta: https://github.com/locolupo/couchdb_connector
+iex(2)> [info] request repo meta: https://github.com/cafebazaar/ecto-cassandra
+iex(2)> [info] request repo meta: https://github.com/gpedic/ecto_shortuuid
+iex(2)> [info] request repo meta: https://github.com/checkiz/elixir-mongo
+iex(2)> [info] request repo meta: https://github.com/gpedic/ex_shortuuid
+iex(2)> [info] request repo meta: https://github.com/lidashuang/ssdb-elixir
+iex(2)> [info] request repo meta: https://github.com/slashdotdash/eventstore
+iex(2)> [info] request repo meta: https://github.com/ericmj/mongodb
+iex(2)> [info] request repo meta: https://github.com/elixir-ecto/postgrex
+iex(2)> [info] request repo meta: https://github.com/ateliware/triplex
+iex(2)> [info] request repo meta: https://github.com/Revmaker/gremlex
+iex(2)> [info] request repo meta: https://github.com/gjaldon/ecto_enum
+iex(2)> [info] request repo meta: https://github.com/crate/craterl
+iex(2)> [info] request repo meta: https://github.com/livehelpnow/tds
+iex(2)> [info] request repo meta: https://github.com/senecasystems/hstore
+iex(2)> [info] request repo meta: https://github.com/rodrigues/red
+iex(2)> [info] request repo meta: https://github.com/blitzstudios/triton
+iex(2)> [info] request repo meta: https://github.com/JonGretar/ExBitcask
+iex(2)> [info] request repo meta: https://github.com/akdilsiz/elixir-rediscl
+iex(2)> [info] request repo meta: https://github.com/michalmuskala/mongodb_ecto
+iex(2)> [info] request repo meta: https://github.com/Zatvobor/tirexs
+iex(2)> [info] request repo meta: https://github.com/livehelpnow/tds_ecto
+iex(2)> [info] request repo meta: https://github.com/whatyouhide/redix
+iex(2)> [info] request repo meta: https://github.com/dantswain/yar
+iex(2)> [info] request repo meta: https://github.com/timbuchwaldt/udpflux
+iex(2)> [info] request repo meta: https://github.com/bitwalker/timex_ecto
+iex(2)> [info] request repo meta: https://github.com/lexhide/xandra
+iex(2)> [info] request repo meta: https://github.com/Ahamtech/elixir-leaseweb
+iex(2)> [info] request repo meta: https://github.com/aws-beam/aws-elixir
+iex(2)> [info] request repo meta: https://github.com/bitwalker/libcluster
+iex(2)> [info] request repo meta: https://github.com/coryodaniel/bonny
+iex(2)> [info] request repo meta: https://github.com/okeuday/nodefinder
+iex(2)> [info] request repo meta: https://github.com/undeadlabs/discovery
+iex(2)> [info] request repo meta: https://github.com/erlcloud/erlcloud
+iex(2)> [info] request repo meta: https://github.com/sashaafm/nomad
+iex(2)> [info] request repo meta: https://github.com/CargoSense/ex_aws
+iex(2)> [info] request repo meta: https://github.com/basho/sidejob
+iex(2)> [info] request repo meta: https://github.com/PSPDFKit-labs/sidetask
+iex(2)> [info] request repo meta: https://github.com/ayrat555/ex_riak_cs
+iex(2)> [info] request repo meta: https://github.com/Nebo15/skycluster
+iex(2)> [info] request repo meta: https://github.com/jordan0day/fleet-api
+iex(2)> [info] request repo meta: https://github.com/Ahamtech/elixir-Gandi
+iex(2)> [info] request repo meta: https://github.com/pprzetacznik/IElixir
+iex(2)> [info] request repo meta: https://github.com/obmarg/kazan
+iex(2)> [info] request repo meta: https://github.com/ingerslevio/kubex
+iex(2)> [info] request repo meta: https://github.com/Gazler/changex
+iex(2)> [info] request repo meta: https://github.com/bitwalker/distillery
+iex(2)> [info] request repo meta: https://github.com/glasnoster/eliver
+iex(2)> [info] request repo meta: https://github.com/bitwalker/exrm
+iex(2)> [info] request repo meta: https://github.com/johnhamelink/exrm_deb
+iex(2)> [info] request repo meta: https://github.com/epsanchezma/exrm-heroku
+iex(2)> [info] request repo meta: https://github.com/smpallen99/exrm-rpm
+iex(2)> [info] request repo meta: https://github.com/Recruitee/mix_docker
+iex(2)> [info] request repo meta: https://github.com/yrashk/relex
+iex(2)> [info] request repo meta: https://github.com/Nebo15/renew
+iex(2)> [info] request repo meta: https://github.com/SenecaSystems/imagineer
+iex(2)> [info] request repo meta: https://github.com/zhangsoledad/alchemic_avatar
+iex(2)> [info] request repo meta: https://github.com/doomspork/artifact
+iex(2)> [info] request repo meta: https://github.com/ianwalter/imgex
+iex(2)> [info] request repo meta: https://github.com/evanfarrar/ex_bump
+iex(2)> [info] request repo meta: https://github.com/mmmries/chunky_svg
+iex(2)> [info] request repo meta: https://github.com/route/mogrify
+iex(2)> [info] request repo meta: https://github.com/yuce/png
+iex(2)> [info] request repo meta: https://github.com/smeevil/cloudex
+iex(2)> [info] request repo meta: https://github.com/talklittle/thumbnex
+iex(2)> [info] request repo meta: https://github.com/tchoutri/Eikon
+iex(2)> [info] request repo meta: https://github.com/sschneider1207/ElixirExif
+iex(2)> [info] request repo meta: https://github.com/rNoz/ex_image_info
+iex(2)> [info] request repo meta: https://github.com/pragdave/exexif
+iex(2)> [info] request repo meta: https://github.com/ikeikeikeike/exfavicon
+iex(2)> [info] request repo meta: https://github.com/rbishop/identicon
+iex(2)> [info] request repo meta: https://github.com/lexmag/tty2048
+iex(2)> [info] request repo meta: https://github.com/synrc/n2o
+iex(2)> [info] request repo meta: https://github.com/spawnproc/bpe
+iex(2)> [info] request repo meta: https://github.com/sergioaugrod/uai_shot
+iex(2)> [info] request repo meta: https://github.com/tchoutri/Nvjorn
+iex(2)> [info] request repo meta: https://github.com/fremantle-industries/workbench
+iex(2)> [info] request repo meta: https://github.com/CaptainFact/captain-fact-api
+[info] request repo meta: https://github.com/bigardone/phoenix-battleship
+iex(2)> [info] request repo meta: https://github.com/bigardone/phoenix-toggl
+iex(2)> [info] request repo meta: https://github.com/sivsushruth/consolex
+iex(2)> [info] request repo meta: https://github.com/bigardone/phoenix-trello
+iex(2)> [info] request repo meta: https://github.com/cloud8421/dragonfly-server
+iex(2)> [info] request repo meta: https://github.com/edgurgel/poxa
+iex(2)> [info] request repo meta: https://github.com/tony612/exchat
+iex(2)> [info] request repo meta: https://github.com/Queertoo/Queerlink
+iex(2)> [info] request repo meta: https://github.com/tchoutri/Exon
+iex(2)> [info] request repo meta: https://github.com/authentic-pixels/ex-shop
+iex(2)> [info] request repo meta: https://github.com/stride-nyc/remote_retro
+iex(2)> [info] request repo meta: https://github.com/elpassion/sprint-poker
+iex(2)> [info] request repo meta: https://github.com/tsurupin/job_search
+iex(2)> [info] request repo meta: https://github.com/doomspork/hydra
+iex(2)> [info] request repo meta: https://github.com/Frathon/Igthorn
+iex(2)> [info] request repo meta: https://github.com/fremantle-capital/tai
+iex(2)> [info] request repo meta: https://github.com/xerions/medex
+iex(2)> [info] request repo meta: https://github.com/IcaliaLabs/medusa_server
+iex(2)> [info] request repo meta: https://github.com/aforward/ar2ecto
+iex(2)> [info] request repo meta: https://github.com/timdeputter/FitEx
+iex(2)> [info] request repo meta: https://github.com/mgwidmann/global
+iex(2)> [info] request repo meta: https://github.com/fertapric/async_with
+iex(2)> [info] request repo meta: https://github.com/mbasso/mandrake
+iex(2)> [info] request repo meta: https://github.com/mykewould/crutches
+iex(2)> [info] request repo meta: https://github.com/whitfin/deppie
+iex(2)> [info] request repo meta: https://github.com/christhekeele/mnemonix
+iex(2)> [info] request repo meta: https://github.com/whitfin/dot-notes-elixir
+iex(2)> [info] request repo meta: https://github.com/facto/plasm
+iex(2)> [info] request repo meta: https://github.com/veelenga/dress
+iex(2)> [info] request repo meta: https://github.com/simonewebdesign/elixir_pubsub
+iex(2)> [info] request repo meta: https://github.com/ferd/erlang-history
+iex(2)> [info] request repo meta: https://github.com/robot-overlord/quark
+iex(2)> [info] request repo meta: https://github.com/proger/erlsh
+iex(2)> [info] request repo meta: https://github.com/erlware/erlware_commons
+iex(2)> [info] request repo meta: https://github.com/safwank/ElixirRetry
+iex(2)> [info] request repo meta: https://github.com/acj/ex_progress
+iex(2)> [info] request repo meta: https://github.com/DavsX/SipsDownloader
+iex(2)> [info] request repo meta: https://github.com/ikeikeikeike/sitemap
+iex(2)> [info] request repo meta: https://github.com/stocks29/exjprop
+iex(2)> [info] request repo meta: https://github.com/PharosProduction/ExVertx
+iex(2)> [info] request repo meta: https://github.com/rozap/exquery
+iex(2)> [info] request repo meta: https://github.com/philss/floki
+iex(2)> [info] request repo meta: https://github.com/rrrene/html_sanitize_ex
+iex(2)> [info] request repo meta: https://github.com/f34nk/modest_ex
+iex(2)> [info] request repo meta: https://github.com/Overbryd/myhtmlex
+iex(2)> [info] request repo meta: https://github.com/keepcosmos/readability
+iex(2)> [info] request repo meta: https://github.com/f34nk/tidy_ex
+iex(2)> [info] request repo meta: https://github.com/rubencaro/sshex
+iex(2)> [info] request repo meta: https://github.com/ephe-meral/asn
+iex(2)> [info] request repo meta: https://github.com/dbeck/chatter_ex
+iex(2)> [info] request repo meta: https://github.com/bitcrowd/sshkit.ex
+iex(2)> [info] request repo meta: https://github.com/asiniy/download
+iex(2)> [info] request repo meta: https://github.com/alexfilatov/torex
+iex(2)> [info] request repo meta: https://github.com/falood/eio
+iex(2)> [info] request repo meta: https://github.com/surik/tunnerl
+iex(2)> [info] request repo meta: https://github.com/cobenian/expcap
+iex(2)> [info] request repo meta: https://github.com/gausby/wifi
+iex(2)> [info] request repo meta: https://github.com/fhunleth/wpa_supplicant.ex
+iex(2)> [info] request repo meta: https://github.com/fklement/hades
+iex(2)> [info] request repo meta: https://github.com/ephe-meral/mac
+iex(2)> [info] request repo meta: https://github.com/slogsdon/pool
+iex(2)> [info] request repo meta: https://github.com/meh/reagent
+iex(2)> [info] request repo meta: https://github.com/Pouriya-Jahanbakhsh/sockerl
+iex(2)> [info] request repo meta: https://github.com/meh/elixir-socket
+iex(2)> [info] request repo meta: https://github.com/yuce/pot
+iex(2)> [info] request repo meta: https://github.com/kleinernik/elixir-aes-cmac
+iex(2)> [info] request repo meta: https://github.com/rubencaro/cipher
+iex(2)> [info] request repo meta: https://github.com/trapped/elixir-rsa
+iex(2)> [info] request repo meta: https://github.com/anoskov/rsa-ex
+iex(2)> [info] request repo meta: https://github.com/danielberkompas/cloak
+iex(2)> [info] request repo meta: https://github.com/whitfin/siphash-elixir
+iex(2)> [info] request repo meta: https://github.com/keichan34/tea_crypto_erl
+iex(2)> [info] request repo meta: https://github.com/riverrun/comeonin
+iex(2)> [info] request repo meta: https://github.com/potatosalad/erlang-crypto_rsassa_pss
+iex(2)> [info] request repo meta: https://github.com/keichan34/elixir_tea
+iex(2)> [info] request repo meta: https://github.com/manelli/ex_bcrypt
+iex(2)> [info] request repo meta: https://github.com/ntrepid8/ex_crypto
+iex(2)> [info] request repo meta: https://github.com/rozap/exgpg
+iex(2)> [info] request repo meta: https://github.com/alisinabh/ntru_elixir
+iex(2)> [info] request repo meta: https://github.com/riverrun/one_time_pass_ecto
+iex(2)> [info] request repo meta: https://github.com/meh/cesso
+iex(2)> [info] request repo meta: https://github.com/beatrichartz/csv
+iex(2)> [info] request repo meta: https://github.com/jimm/csvlixir
+iex(2)> [info] request repo meta: https://github.com/CargoSense/ex_csv
+iex(2)> [info] request repo meta: https://github.com/plataformatec/nimble_csv
+iex(2)> [info] request repo meta: https://github.com/gothinkster/elixir-phoenix-realworld-example-app
+iex(2)> [info] request repo meta: https://github.com/hexpm/hexpm
+iex(2)> [info] request repo meta: https://github.com/keathley/butler_cage
+iex(2)> [info] request repo meta: https://github.com/SebastianSzturo/kaisuu
+iex(2)> [info] request repo meta: https://github.com/keathley/butler_tableflip
+iex(2)> [info] request repo meta: https://github.com/YellowApple/Rubix
+iex(2)> [info] request repo meta: https://github.com/dojo-toulouse/elixir-koans
+iex(2)> [info] request repo meta: https://github.com/thechangelog/changelog.com
+iex(2)> [info] request repo meta: https://github.com/cazrin/stranger
+iex(2)> [info] request repo meta: https://github.com/coderplanets/coderplanets_server
+iex(2)> [info] request repo meta: https://github.com/restartr/ex-lolcat
+iex(2)> [info] request repo meta: https://github.com/stocks29/dice
+iex(2)> [info] request repo meta: https://github.com/sergiotapia/magnetissimo
+iex(2)> [info] request repo meta: https://github.com/hashrocket/tilex
+iex(2)> [info] request repo meta: https://github.com/elixirkoans/elixir-koans
+iex(2)> [info] request repo meta: https://github.com/wojtekmach/oop
+iex(2)> [info] request repo meta: https://github.com/tacticiankerala/elixir-weather
+iex(2)> [info] request repo meta: https://github.com/eljojo/ex_chain
+iex(2)> [info] request repo meta: https://github.com/dwyl/phoenix-chat-example
+iex(2)> [info] request repo meta: https://github.com/fxg42/phoenix-flux-react
+iex(2)> [info] request repo meta: https://github.com/cryptobird/ex_iss
+iex(2)> [info] request repo meta: https://github.com/dwyl/phoenix-liveview-counter-tutorial
+iex(2)> [info] request repo meta: https://github.com/erneestoc/feedx
+iex(2)> [info] request repo meta: https://github.com/rubencaro/harakiri
+iex(2)> [info] request repo meta: https://github.com/dwyl/phoenix-todo-list-tutorial
+iex(2)> [info] request repo meta: https://github.com/bigardone/phoenix-react-redux-template
+iex(2)> [info] request repo meta: https://github.com/josevalim/portal
+iex(2)> [info] request repo meta: https://github.com/fhunleth/elixir_ale
+iex(2)> [info] request repo meta: https://github.com/nerves-project/nerves
+iex(2)> [info] request repo meta: https://github.com/appsignal/appsignal-elixir/
+iex(2)> [info] request repo meta: https://github.com/deadtrickster/prometheus-phoenix
+iex(2)> [info] request repo meta: https://github.com/pinterest/elixometer
+iex(2)> [info] request repo meta: https://github.com/deadtrickster/prometheus-plugs
+iex(2)> [info] request repo meta: https://github.com/benoitc/erlang-metrics
+iex(2)> [info] request repo meta: https://github.com/deadtrickster/prometheus.ex
+iex(2)> [info] request repo meta: https://github.com/deadtrickster/prometheus_process_collector
+iex(2)> [info] request repo meta: https://github.com/Feuerlabs/exometer
+iex(2)> [info] request repo meta: https://github.com/spandex-project/spandex
+iex(2)> [info] request repo meta: https://github.com/beam-telemetry/telemetry
+iex(2)> [info] request repo meta: https://github.com/dalmatinerdb/folsom_ddb
+iex(2)> [info] request repo meta: https://github.com/shinyscorpion/wobserver
+iex(2)> [info] request repo meta: https://github.com/msoedov/graphitex
+iex(2)> [info] request repo meta: https://github.com/mneudert/instream
+iex(2)> [info] request repo meta: https://github.com/undeadlabs/instrumental-ex
+iex(2)> [info] request repo meta: https://github.com/romul/newrelic.ex
+iex(2)> [info] request repo meta: https://github.com/deadtrickster/prometheus.erl
+iex(2)> [info] request repo meta: https://github.com/deadtrickster/prometheus-ecto
+iex(2)> [info] request repo meta: https://github.com/swelham/ueberauth_microsoft
+iex(2)> [info] request repo meta: https://github.com/zmoshansky/aeacus
+iex(2)> [info] request repo meta: https://github.com/handnot2/samly
+[info] request repo meta: https://github.com/mojolingo/mojo-auth.ex
+iex(2)> [info] request repo meta: https://github.com/khusnetdinov/sesamex
+iex(2)> [info] request repo meta: https://github.com/ueberauth/ueberauth_slack
+iex(2)> [info] request repo meta: https://github.com/kevinmontuori/Apache.PasswdMD5
+iex(2)> [info] request repo meta: https://github.com/scrogson/oauth2
+iex(2)> [info] request repo meta: https://github.com/handnot2/sigaws
+iex(2)> [info] request repo meta: https://github.com/ueberauth/ueberauth_twitter
+iex(2)> [info] request repo meta: https://github.com/chrislaskey/oauth2_facebook
+iex(2)> [info] request repo meta: https://github.com/ueberauth/ueberauth
+iex(2)> [info] request repo meta: https://github.com/sobolevn/ueberauth_vk
+iex(2)> [info] request repo meta: https://github.com/bryanjos/aws_auth
+iex(2)> [info] request repo meta: https://github.com/chrislaskey/oauth2_github
+iex(2)> [info] request repo meta: https://github.com/marceldegraaf/ueberauth_cas
+iex(2)> [info] request repo meta: https://github.com/CultivateHQ/basic_auth
+iex(2)> [info] request repo meta: https://github.com/ueberauth/ueberauth_Facebook
+iex(2)> [info] request repo meta: https://github.com/mgamini/oauth2cli-elixir
+iex(2)> [info] request repo meta: https://github.com/he9qi/ueberauth_weibo
+iex(2)> [info] request repo meta: https://github.com/borodiychuk/ueberauth_foursquare
+iex(2)> [info] request repo meta: https://github.com/parroty/oauth2ex
+iex(2)> [info] request repo meta: https://github.com/railsmechanic/zachaeus
+iex(2)> [info] request repo meta: https://github.com/smpallen99/coherence
+iex(2)> [info] request repo meta: https://github.com/ueberauth/ueberauth_github
+iex(2)> [info] request repo meta: https://github.com/lexmag/oauther
+iex(2)> [info] request repo meta: https://github.com/BlakeWilliams/doorman
+iex(2)> [info] request repo meta: https://github.com/ueberauth/ueberauth_google
+iex(2)> [info] request repo meta: https://github.com/madebymany/passwordless_auth
+iex(2)> [info] request repo meta: https://github.com/dwyl/elixir-auth-google
+iex(2)> [info] request repo meta: https://github.com/ueberauth/ueberauth_identity
+iex(2)> [info] request repo meta: https://github.com/riverrun/phauxth
+iex(2)> [info] request repo meta: https://github.com/lidashuang/github_oauth
+iex(2)> [info] request repo meta: https://github.com/jshmrtn/phoenix-client-ssl
+iex(2)> [info] request repo meta: https://github.com/alexfilatov/ueberauth_line
+iex(2)> [info] request repo meta: https://github.com/danschultzer/pow
+iex(2)> [info] request repo meta: https://github.com/peburrows/goth
+iex(2)> [info] request repo meta: https://github.com/ueberauth/guardian
+iex(2)> [info] request repo meta: https://github.com/kevinmontuori/Apache.htpasswd
+iex(2)> [info] request repo meta: https://github.com/DOBRO/binbo
+iex(2)> [info] request repo meta: https://github.com/entice/entice
+iex(2)> [info] request repo meta: https://github.com/kevlar1818/mines
+iex(2)> [info] request repo meta: https://github.com/theanht1/vim_snake
+iex(2)> [info] request repo meta: https://github.com/pigmej/exelli
+iex(2)> [info] request repo meta: https://github.com/kittoframework/kitto
+iex(2)> [info] request repo meta: https://github.com/phoenixframework/phoenix
+iex(2)> [info] request repo meta: https://github.com/slogsdon/placid
+iex(2)> [info] request repo meta: https://github.com/AntonFagerberg/rackla
+iex(2)> [info] request repo meta: https://github.com/AgilionApps/relax
+iex(2)> [info] request repo meta: https://github.com/synrc/rest
+iex(2)> [info] request repo meta: https://github.com/Accenture/reactive-interaction-gateway
+iex(2)> [info] request repo meta: https://github.com/sugar-framework/sugar
+iex(2)> [info] request repo meta: https://github.com/hexedpackets/trot
+iex(2)> [info] request repo meta: https://github.com/nirvana/belvedere
+iex(2)> [info] request repo meta: https://github.com/alfert/coverex
+iex(2)> [info] request repo meta: https://github.com/rrrene/credo
+iex(2)> [info] request repo meta: https://github.com/jeremyjh/dialyxir
+iex(2)> [info] request repo meta: https://github.com/lpil/dogma
+iex(2)> [info] request repo meta: https://github.com/parroty/excoveralls
+iex(2)> [info] request repo meta: https://github.com/parroty/exprof
+iex(2)> [info] request repo meta: https://github.com/Nebo15/confex
+iex(2)> [info] request repo meta: https://github.com/easco/configparser_ex
+iex(2)> [info] request repo meta: https://github.com/bitwalker/conform
+iex(2)> [info] request repo meta: https://github.com/avdi/dotenv_elixir
+iex(2)> [info] request repo meta: https://github.com/phoenixframework/ex_conf
+iex(2)> [info] request repo meta: https://github.com/trestrantham/ex_figaro
+iex(2)> [info] request repo meta: https://github.com/KamilLelonek/figaro-elixir
+iex(2)> [info] request repo meta: https://github.com/d0rc/sweetconfig
+iex(2)> [info] request repo meta: https://github.com/Yawolf/yocingo
+iex(2)> [info] request repo meta: https://github.com/alice-bot/alice
+iex(2)> [info] request repo meta: https://github.com/alco/chatty
+iex(2)> [info] request repo meta: https://github.com/operable/cog
+iex(2)> [info] request repo meta: https://github.com/rockneurotiko/ex_gram
+iex(2)> [info] request repo meta: https://github.com/bitwalker/exirc
+iex(2)> [info] request repo meta: https://github.com/techgaun/ex_mustang
+iex(2)> [info] request repo meta: https://github.com/elvio/guri
+iex(2)> [info] request repo meta: https://github.com/hedwig-im/hedwig
+iex(2)> [info] request repo meta: https://github.com/ymtszw/hipchat_elixir
+iex(2)> [info] request repo meta: https://github.com/Luminarys/Kaguya
+iex(2)> [info] request repo meta: https://github.com/koudelka/slacker
+iex(2)> [info] request repo meta: https://github.com/infinitered/elasticsearch-elixir
+iex(2)> [info] request repo meta: https://github.com/Tyler-pierce/giza_sphinxsearch
+iex(2)> [info] request repo meta: https://github.com/bearice/elixir-radius
+iex(2)> [info] request repo meta: https://github.com/jcomellas/ex_hl7
+iex(2)> [info] request repo meta: https://github.com/gaynetdinov/ex_marshal
+iex(2)> [info] request repo meta: https://github.com/bitwalker/exprotobuf
+iex(2)> [info] request repo meta: https://github.com/tony612/grpc-elixir
+iex(2)> [info] request repo meta: https://github.com/mururu/msgpack-elixir
+iex(2)> [info] request repo meta: https://github.com/lexmag/msgpax
+iex(2)> [info] request repo meta: https://github.com/ahamez/protox
+iex(2)> [info] request repo meta: https://github.com/pinterest/riffed
+iex(2)> [info] request repo meta: https://github.com/balena/elixir-sippet
+iex(2)> [info] request repo meta: https://github.com/savonarola/smppex
+iex(2)> [info] request repo meta: https://github.com/Nebo15/bsoneach
+iex(2)> [info] request repo meta: https://github.com/ispirata/cyanide
+iex(2)> [info] request repo meta: https://github.com/asaaki/cmark.ex
+iex(2)> [info] request repo meta: https://github.com/asaaki/discount.ex
+iex(2)> [info] request repo meta: https://github.com/pragdave/earmark
+iex(2)> [info] request repo meta: https://github.com/devinus/markdown
+iex(2)> [info] request repo meta: https://github.com/filterkaapi/pandex
+iex(2)> [debug] QUERY OK source="categories" db=0.6ms queue=1.6ms idle=1441.7ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Formulars", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "🧾 FORM: Business X-Forms — https://form.n2o.dev",
+        last_commit_at: ~N[2020-08-07 12:52:05],
+        name: "forms",
+        stars_count: 30,
+        url: "https://github.com/spawnproc/forms"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >
+  ],
+  name: "Formulars"
+}
+iex(2)> [debug] QUERY OK db=0.1ms idle=1463.0ms
+begin []
+iex(2)> [debug] QUERY OK db=0.9ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Formulars", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.6ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [1, "🧾 FORM: Business X-Forms — https://form.n2o.dev", ~N[2020-08-07 12:52:05], "forms", 30, "https://github.com/spawnproc/forms", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=63.7ms
+commit []
+iex(2)> [debug] QUERY OK source="categories" db=5.3ms idle=540.3ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Miscellaneous", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "US Address Parsing for Elixir.",
+        last_commit_at: ~N[2020-07-23 16:15:15],
+        name: "address_us",
+        stars_count: 18,
+        url: "https://github.com/smashedtoatoms/address_us"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Automatically create slugs for Ecto schemas.",
+        last_commit_at: ~N[2020-08-10 02:12:28],
+        name: "ecto_autoslug_field",
+        stars_count: 123,
+        url: "https://github.com/sobolevn/ecto_autoslug_field"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Elixir -> HTML/JavaScript based presentation framework intended for showing Elixir code",
+        last_commit_at: ~N[2015-12-07 13:12:20],
+        name: "presentex",
+        stars_count: 11,
+        url: "https://github.com/Cobenian/Presentex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Extremely simple Process pooling and task submission in Elixir",
+        last_commit_at: ~N[2020-03-03 19:54:48],
+        name: "expool",
+        stars_count: 23,
+        url: "https://github.com/whitfin/expool"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Elixir Library for Japan municipality key converting",
+        last_commit_at: ~N[2020-03-03 21:35:51],
+        name: "japan_municipality_key",
+        stars_count: 0,
+        url: "https://github.com/hykw/japan_municipality_key"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Continuous Integration, Deployment, and Delivery coordinator, written in Elixir.",
+        last_commit_at: ~N[2020-08-14 10:43:16],
+        name: "AlloyCI",
+        stars_count: 272,
+        url: "https://github.com/AlloyCI/alloy_ci"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A simple egauge parser to retrieve and parse data from egauge devices",
+        last_commit_at: ~N[2018-07-13 16:30:34],
+        name: "egaugex",
+        stars_count: 1,
+        url: "https://github.com/Brightergy/egaugex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Ratekeeper is a library for scheduling rate-limited actions.",
+        last_commit_at: ~N[2018-07-14 03:10:14],
+        name: "ratekeeper",
+        stars_count: 15,
+        url: "https://github.com/whitered/ratekeeper"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A printf / sprintf library for Elixir. It works as a wrapper for :io.format.",
+        last_commit_at: ~N[2017-02-01 15:04:33],
+        name: "exprint",
+        stars_count: 32,
+        url: "https://github.com/parroty/exprintf"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A Japanese dictionary API; a wrapper around Jisho's API (http://jisho.org) ",
+        last_commit_at: ~N[2020-03-08 14:05:39],
+        name: "Jisho-Elixir",
+        stars_count: 16,
+        url: "https://github.com/nbw/jisho_elixir"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Awesome printing for Elixir",
+        last_commit_at: ~N[2018-08-07 11:37:39],
+        name: "Apex",
+        stars_count: 263,
+        url: "https://github.com/bjro/apex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Rate limiter and overload protection for erlang application",
+        last_commit_at: ~N[2017-10-04 11:41:18],
+        name: "ratx",
+        stars_count: 20,
+        url: "https://github.com/liveforeverx/ratx"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "LINQ-like match_spec generation for Elixir.",
+        last_commit_at: ~N[2019-12-16 23:32:38],
+        name: "exquisite",
+        stars_count: 74,
+        url: "https://github.com/meh/exquisite"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Erlang set associative map for key lists",
+        last_commit_at: ~N[2020-06-04 01:03:15],
+        name: "keys1value",
+        stars_count: 1,
+        url: "https://github.com/okeuday/keys1value"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Tiny Erlang VM",
+        last_commit_at: ~N[2020-08-11 14:17:19],
+        name: "AtomVM",
+        stars_count: 602,
+        url: "https://github.com/bettio/AtomVM"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Browser detection for Elixir",
+        last_commit_at: ~N[2020-07-17 09:38:35],
+        name: "elixir-browser",
+        stars_count: 66,
+        url: "https://github.com/tuvistavie/elixir-browser"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Yet another elixir reloader.",
+        last_commit_at: ~N[2020-06-10 05:48:29],
+        name: "exsync",
+        stars_count: 88,
+        url: "https://github.com/falood/exsync"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An Elixir mix task that lists all the licenses used by your Mix project dependencies.",
+        last_commit_at: ~N[2020-02-23 03:24:07],
+        name: "licensir",
+        stars_count: 37,
+        url: "https://github.com/unnawut/licensir"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "BUPE is a Elixir ePub generator and parser (supports EPUB v3)",
+        last_commit_at: ~N[2020-07-27 11:34:34],
+        name: "bupe",
+        stars_count: 61,
+        url: "https://github.com/milmazz/bupe"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A tool for getting the ebooks covers  ",
+        last_commit_at: ~N[2020-08-14 13:41:16],
+        name: "epub_cover_extractor",
+        stars_count: 3,
+        url: "https://github.com/zelazna/epub_cover_extractor"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Simplified module reloader for Elixir",
+        last_commit_at: ~N[2020-03-30 03:19:17],
+        name: "reprise",
+        stars_count: 40,
+        url: "https://github.com/herenowcoder/reprise"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Streaming Elixir API built upon ElasticSearch's percolation.",
+        last_commit_at: ~N[2016-06-28 15:13:07],
+        name: "funnel",
+        stars_count: 32,
+        url: "https://github.com/chatgris/funnel"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An interactive dependency plotter for your Hex Package",
+        last_commit_at: ~N[2016-04-02 04:57:43],
+        name: "mixgraph",
+        stars_count: 8,
+        url: "https://github.com/sivsushruth/mixgraph"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "ANSI rainbow for elixir, be a magician",
+        last_commit_at: ~N[2014-10-29 13:00:56],
+        name: "charm",
+        stars_count: 3,
+        url: "https://github.com/tomgco/elixir-charm"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Erlang Term Info",
+        last_commit_at: ~N[2020-06-12 23:13:46],
+        name: "erlang_term",
+        stars_count: 26,
+        url: "https://github.com/okeuday/erlang_term"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Spawn processes from the file system.",
+        last_commit_at: ~N[2014-10-28 22:36:33],
+        name: "spawndir",
+        stars_count: 3,
+        url: "https://github.com/jtmoulia/spawndir"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Generic Task behavior that helps encapsulate errors and recover from them in classic GenStage workers.",
+        last_commit_at: ~N[2017-08-30 12:57:00],
+        name: "gen_task",
+        stars_count: 21,
+        url: "https://github.com/Nebo15/gen_task"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Elixir Mix task to starring GitHub repository with `mix deps.get`ting dependent library",
+        last_commit_at: ~N[2015-10-02 03:42:42],
+        name: "mixstar",
+        stars_count: 12,
+        url: "https://github.com/ma2gedev/mix-star"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Generate Erlang VM byte code from Haskell",
+        last_commit_at: ~N[2019-10-22 16:53:37],
+        name: "codec-beam",
+        stars_count: 149,
+        url: "https://github.com/hkgumbs/codec-beam"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: ":ets.fun2ms for Elixir, translate functions to match specifications",
+        last_commit_at: ~N[2019-12-13 14:09:16],
+        name: "ex2ms",
+        stars_count: 119,
+        url: "https://github.com/ericmj/ex2ms"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Elixir wrapper for the Spotify Web API",
+        last_commit_at: ~N[2020-06-15 21:15:54],
+        name: "spotify_ex",
+        stars_count: 101,
+        url: "https://github.com/jsncmgs1/spotify_ex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        last_commit_at: ~N[2020-03-03 21:33:27],
+        name: "gimei_ex",
+        stars_count: 6,
+        url: "https://github.com/ma2gedev/gimei_ex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Reads netrc files implemented in Elixir",
+        last_commit_at: ~N[2015-11-15 13:43:56],
+        name: "netrc",
+        stars_count: 4,
+        url: "https://github.com/ma2gedev/netrcex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Collection of Country Information for Elixir.",
+        last_commit_at: ~N[2020-06-22 05:58:52],
+        name: "Countries",
+        stars_count: 96,
+        url: "https://github.com/SebastianSzturo/countries"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Elixir port of libphonenumber",
+        last_commit_at: ~N[2020-08-10 09:13:50],
+        name: "ex_phone_number",
+        stars_count: 114,
+        url: "https://github.com/socialpaymentsbv/ex_phone_number"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A simple library for Elixir that provides json over STDIO",
+        last_commit_at: ~N[2020-03-03 21:40:09],
+        name: "std_json_io",
+        stars_count: 26,
+        url: "https://github.com/hassox/std_json_io"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Simple wrapper for growl, the notification system for OSX",
+        last_commit_at: ~N[2017-11-17 18:48:24],
+        name: "growl",
+        stars_count: 6,
+        url: "https://github.com/zachallett/growl"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An onetime key-value store for Elixir",
+        last_commit_at: ~N[2018-06-29 16:48:21],
+        name: "onetime",
+        stars_count: 4,
+        url: "https://github.com/ryo33/onetime-elixir"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "All sorts of useful information about every country. A pure elixir port of the ruby Countries gem",
+        last_commit_at: ~N[2019-03-11 11:51:28],
+        name: "countriex",
+        stars_count: 22,
+        url: "https://github.com/navinpeiris/countriex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "ExRated, the Elixir OTP GenServer with the naughty name that allows you to rate-limit calls to any service that requires it.",
+        last_commit_at: ~N[2020-07-21 21:40:41],
+        name: "ex_rated",
+        stars_count: 294,
+        url: "https://github.com/grempe/ex_rated"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A simple url unroller (un-shortener) in elixir",
+        last_commit_at: ~N[2017-07-26 02:07:13],
+        name: "url_unroller",
+        stars_count: 4,
+        url: "https://github.com/semanticart/url_unroller"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An Elixir rate-limiter with pluggable backends",
+        last_commit_at: ~N[2020-05-13 02:55:14],
+        name: "hammer",
+        stars_count: 348,
+        ...
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Better dependency injection in Elixir",
+        last_commit_at: ~N[2018-09-10 17:04:42],
+        name: "pact",
+        ...
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Dyeing your terminal!",
+        last_commit_at: ~N[2016-06-23 07:05:47],
+        ...
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      ...
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "ExFCM is a simple wrapper around Firebase Cloud Messaging",
+        ...
+      },
+      errors: [],
+      ...
+    >,
+    #Ecto.Changeset<action: nil, changes: %{...}, ...>,
+    #Ecto.Changeset<action: nil, ...>,
+    #Ecto.Changeset<...>,
+    ...
+  ],
+  name: "Miscellaneous"
+}
+iex(2)> [debug] QUERY OK db=0.5ms queue=0.1ms idle=561.6ms
+begin []
+iex(2)> [debug] QUERY OK db=3.1ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Miscellaneous", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=1.7ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "US Address Parsing for Elixir.", ~N[2020-07-23 16:15:15], "address_us", 18, "https://github.com/smashedtoatoms/address_us", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.9ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Automatically create slugs for Ecto schemas.", ~N[2020-08-10 02:12:28], "ecto_autoslug_field", 123, "https://github.com/sobolevn/ecto_autoslug_field", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.9ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir -> HTML/JavaScript based presentation framework intended for showing Elixir code", ~N[2015-12-07 13:12:20], "presentex", 11, "https://github.com/Cobenian/Presentex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.8ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Extremely simple Process pooling and task submission in Elixir", ~N[2020-03-03 19:54:48], "expool", 23, "https://github.com/whitfin/expool", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.5ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir Library for Japan municipality key converting", ~N[2020-03-03 21:35:51], "japan_municipality_key", 0, "https://github.com/hykw/japan_municipality_key", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.6ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Continuous Integration, Deployment, and Delivery coordinator, written in Elixir.", ~N[2020-08-14 10:43:16], "AlloyCI", 272, "https://github.com/AlloyCI/alloy_ci", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "A simple egauge parser to retrieve and parse data from egauge devices", ~N[2018-07-13 16:30:34], "egaugex", 1, "https://github.com/Brightergy/egaugex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Ratekeeper is a library for scheduling rate-limited actions.", ~N[2018-07-14 03:10:14], "ratekeeper", 15, "https://github.com/whitered/ratekeeper", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "A printf / sprintf library for Elixir. It works as a wrapper for :io.format.", ~N[2017-02-01 15:04:33], "exprint", 32, "https://github.com/parroty/exprintf", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "A Japanese dictionary API; a wrapper around Jisho's API (http://jisho.org) ", ~N[2020-03-08 14:05:39], "Jisho-Elixir", 16, "https://github.com/nbw/jisho_elixir", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Awesome printing for Elixir", ~N[2018-08-07 11:37:39], "Apex", 263, "https://github.com/bjro/apex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Rate limiter and overload protection for erlang application", ~N[2017-10-04 11:41:18], "ratx", 20, "https://github.com/liveforeverx/ratx", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "LINQ-like match_spec generation for Elixir.", ~N[2019-12-16 23:32:38], "exquisite", 74, "https://github.com/meh/exquisite", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Erlang set associative map for key lists", ~N[2020-06-04 01:03:15], "keys1value", 1, "https://github.com/okeuday/keys1value", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Tiny Erlang VM", ~N[2020-08-11 14:17:19], "AtomVM", 602, "https://github.com/bettio/AtomVM", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Browser detection for Elixir", ~N[2020-07-17 09:38:35], "elixir-browser", 66, "https://github.com/tuvistavie/elixir-browser", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Yet another elixir reloader.", ~N[2020-06-10 05:48:29], "exsync", 88, "https://github.com/falood/exsync", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "An Elixir mix task that lists all the licenses used by your Mix project dependencies.", ~N[2020-02-23 03:24:07], "licensir", 37, "https://github.com/unnawut/licensir", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "BUPE is a Elixir ePub generator and parser (supports EPUB v3)", ~N[2020-07-27 11:34:34], "bupe", 61, "https://github.com/milmazz/bupe", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "A tool for getting the ebooks covers  ", ~N[2020-08-14 13:41:16], "epub_cover_extractor", 3, "https://github.com/zelazna/epub_cover_extractor", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Simplified module reloader for Elixir", ~N[2020-03-30 03:19:17], "reprise", 40, "https://github.com/herenowcoder/reprise", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Streaming Elixir API built upon ElasticSearch's percolation.", ~N[2016-06-28 15:13:07], "funnel", 32, "https://github.com/chatgris/funnel", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "An interactive dependency plotter for your Hex Package", ~N[2016-04-02 04:57:43], "mixgraph", 8, "https://github.com/sivsushruth/mixgraph", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "ANSI rainbow for elixir, be a magician", ~N[2014-10-29 13:00:56], "charm", 3, "https://github.com/tomgco/elixir-charm", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Erlang Term Info", ~N[2020-06-12 23:13:46], "erlang_term", 26, "https://github.com/okeuday/erlang_term", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Spawn processes from the file system.", ~N[2014-10-28 22:36:33], "spawndir", 3, "https://github.com/jtmoulia/spawndir", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Generic Task behavior that helps encapsulate errors and recover from them in classic GenStage workers.", ~N[2017-08-30 12:57:00], "gen_task", 21, "https://github.com/Nebo15/gen_task", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir Mix task to starring GitHub repository with `mix deps.get`ting dependent library", ~N[2015-10-02 03:42:42], "mixstar", 12, "https://github.com/ma2gedev/mix-star", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Generate Erlang VM byte code from Haskell", ~N[2019-10-22 16:53:37], "codec-beam", 149, "https://github.com/hkgumbs/codec-beam", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, ":ets.fun2ms for Elixir, translate functions to match specifications", ~N[2019-12-13 14:09:16], "ex2ms", 119, "https://github.com/ericmj/ex2ms", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir wrapper for the Spotify Web API", ~N[2020-06-15 21:15:54], "spotify_ex", 101, "https://github.com/jsncmgs1/spotify_ex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id" [2, ~N[2020-03-03 21:33:27], "gimei_ex", 6, "https://github.com/ma2gedev/gimei_ex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Reads netrc files implemented in Elixir", ~N[2015-11-15 13:43:56], "netrc", 4, "https://github.com/ma2gedev/netrcex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Collection of Country Information for Elixir.", ~N[2020-06-22 05:58:52], "Countries", 96, "https://github.com/SebastianSzturo/countries", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir port of libphonenumber", ~N[2020-08-10 09:13:50], "ex_phone_number", 114, "https://github.com/socialpaymentsbv/ex_phone_number", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "A simple library for Elixir that provides json over STDIO", ~N[2020-03-03 21:40:09], "std_json_io", 26, "https://github.com/hassox/std_json_io", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Simple wrapper for growl, the notification system for OSX", ~N[2017-11-17 18:48:24], "growl", 6, "https://github.com/zachallett/growl", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "An onetime key-value store for Elixir", ~N[2018-06-29 16:48:21], "onetime", 4, "https://github.com/ryo33/onetime-elixir", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "All sorts of useful information about every country. A pure elixir port of the ruby Countries gem", ~N[2019-03-11 11:51:28], "countriex", 22, "https://github.com/navinpeiris/countriex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "ExRated, the Elixir OTP GenServer with the naughty name that allows you to rate-limit calls to any service that requires it.", ~N[2020-07-21 21:40:41], "ex_rated", 294, "https://github.com/grempe/ex_rated", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "A simple url unroller (un-shortener) in elixir", ~N[2017-07-26 02:07:13], "url_unroller", 4, "https://github.com/semanticart/url_unroller", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "An Elixir rate-limiter with pluggable backends", ~N[2020-05-13 02:55:14], "hammer", 348, "https://github.com/ExHammer/hammer", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Better dependency injection in Elixir", ~N[2018-09-10 17:04:42], "pact", 68, "https://github.com/BlakeWilliams/pact", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Dyeing your terminal!", ~N[2016-06-23 07:05:47], "dye", 16, "https://github.com/Kabie/dye", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "ExFCM is a simple wrapper around Firebase Cloud Messaging", ~N[2016-10-05 06:49:37], "exfcm", 1, "https://github.com/Hajto/ExFCM", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir MapReduce interfaces with Hadoop Streaming integration", ~N[2020-03-03 21:08:22], "vessel", 18, "https://github.com/whitfin/vessel", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir module for decoding HTML entities.", ~N[2020-08-06 09:42:23], "html_entities", 63, "https://github.com/martinsvalin/html_entities", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir phone number parser for numbers in international standard.", ~N[2020-05-06 19:46:19], "phone", 88, "https://github.com/fcevado/phone", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "compile and load erlang modules from string input", ~N[2014-10-13 21:03:21], "dynamic_compile", 1, "https://github.com/okeuday/dynamic_compile", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "A module for working with LDAP from Elixir", ~N[2018-04-09 22:34:10], "exldap", 49, "https://github.com/jmerriweather/exldap", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Elixir client for Philips Hue connected light bulbs", ~N[2019-02-16 23:58:35], "huex", 54, "https://github.com/xavier/huex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [2, "Work with external processes like a boss", ~N[2018-06-05 10:57:39], "porcelain", 782, "https://github.com/alco/porcelain", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id" [2, ~N[2014-11-02 19:15:08], "exlibris", 10, "https://github.com/pragdave/exlibris", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.8ms
+commit []
+iex(2)> [debug] QUERY OK source="categories" db=1.1ms idle=601.4ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Security", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "CalmAV wrapper for elixir",
+        last_commit_at: ~N[2020-03-15 18:23:51],
+        name: "clamxir",
+        stars_count: 6,
+        url: "https://github.com/ramortegui/clamxir"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Check if your password has been pwned",
+        last_commit_at: ~N[2020-04-01 13:15:53],
+        name: "pwned",
+        stars_count: 13,
+        url: "https://github.com/thiamsantos/pwned"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Security oriented helper functions for Elixir",
+        last_commit_at: ~N[2015-10-24 14:41:14],
+        name: "safetybox",
+        stars_count: 17,
+        url: "https://github.com/aforward/safetybox"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Security-focused static analysis for the Phoenix Framework",
+        last_commit_at: ~N[2020-08-13 21:41:50],
+        name: "sobelow",
+        stars_count: 983,
+        url: "https://github.com/nccgroup/sobelow"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Collection of ssl verification functions for Erlang",
+        last_commit_at: ~N[2020-05-17 21:11:44],
+        name: "ssl_verify_fun",
+        stars_count: 69,
+        url: "https://github.com/deadtrickster/ssl_verify_fun.erl"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >
+  ],
+  name: "Security"
+}
+iex(2)> [debug] QUERY OK db=0.1ms idle=603.1ms
+begin []
+iex(2)> [debug] QUERY OK db=0.9ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Security", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.4ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [3, "CalmAV wrapper for elixir", ~N[2020-03-15 18:23:51], "clamxir", 6, "https://github.com/ramortegui/clamxir", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [3, "Check if your password has been pwned", ~N[2020-04-01 13:15:53], "pwned", 13, "https://github.com/thiamsantos/pwned", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [3, "Security oriented helper functions for Elixir", ~N[2015-10-24 14:41:14], "safetybox", 17, "https://github.com/aforward/safetybox", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [3, "Security-focused static analysis for the Phoenix Framework", ~N[2020-08-13 21:41:50], "sobelow", 983, "https://github.com/nccgroup/sobelow", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [3, "Collection of ssl verification functions for Erlang", ~N[2020-05-17 21:11:44], "ssl_verify_fun", 69, "https://github.com/deadtrickster/ssl_verify_fun.erl", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.7ms
+commit []
+iex(2)> [debug] QUERY OK source="categories" db=1.1ms idle=607.7ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Encoding and Compression", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Elixir implementation of Ethereum's RLP (Recursive Length Prefix) encoding",
+        last_commit_at: ~N[2020-02-07 12:38:25],
+        name: "ex_rlp",
+        stars_count: 18,
+        url: "https://github.com/exthereum/ex_rlp"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Huffman Coding and Decoding for Elixir",
+        last_commit_at: ~N[2015-06-14 21:53:09],
+        name: "huffman",
+        stars_count: 19,
+        url: "https://github.com/SenecaSystems/huffman"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >
+  ],
+  name: "Encoding and Compression"
+}
+iex(2)> [debug] QUERY OK db=0.1ms idle=609.2ms
+begin []
+iex(2)> [debug] QUERY OK db=0.7ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Encoding and Compression", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [4, "Elixir implementation of Ethereum's RLP (Recursive Length Prefix) encoding", ~N[2020-02-07 12:38:25], "ex_rlp", 18, "https://github.com/exthereum/ex_rlp", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [4, "Huffman Coding and Decoding for Elixir", ~N[2015-06-14 21:53:09], "huffman", 19, "https://github.com/SenecaSystems/huffman", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.8ms
+commit []
+iex(2)> [debug] QUERY OK source="categories" db=0.9ms idle=612.6ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Bittorrent", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: ":bento: A fast, correct, pure-Elixir library for reading and writing Bencoded metainfo (.torrent) files.",
+        last_commit_at: ~N[2019-06-24 17:57:23],
+        name: "bento",
+        stars_count: 60,
+        url: "https://github.com/folz/bento"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "an elixir library for dealing with bittorrent tracker requests and responses",
+        last_commit_at: ~N[2014-12-30 17:19:22],
+        name: "tracker_request",
+        stars_count: 12,
+        url: "https://github.com/alehander42/tracker_request"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "encode and decode bittorrent peer wire protocol messages with elixir",
+        last_commit_at: ~N[2016-01-03 12:01:21],
+        name: "wire",
+        stars_count: 14,
+        url: "https://github.com/alehander42/wire"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >
+  ],
+  name: "Bittorrent"
+}
+iex(2)> [debug] QUERY OK db=0.1ms idle=614.0ms
+begin []
+iex(2)> [debug] QUERY OK db=0.4ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Bittorrent", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [5, ":bento: A fast, correct, pure-Elixir library for reading and writing Bencoded metainfo (.torrent) files.", ~N[2019-06-24 17:57:23], "bento", 60, "https://github.com/folz/bento", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [5, "an elixir library for dealing with bittorrent tracker requests and responses", ~N[2014-12-30 17:19:22], "tracker_request", 12, "https://github.com/alehander42/tracker_request", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [5, "encode and decode bittorrent peer wire protocol messages with elixir", ~N[2016-01-03 12:01:21], "wire", 14, "https://github.com/alehander42/wire", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.7ms
+commit []
+iex(2)> [debug] QUERY OK source="categories" db=0.2ms idle=172.7ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Behaviours and Interfaces", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Connection behaviour for connection processes",
+        last_commit_at: ~N[2017-04-24 12:55:29],
+        name: "connection",
+        stars_count: 224,
+        url: "https://github.com/fishcakez/connection"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An idiomatic Elixir wrapper for gen_statem in OTP 19 (and above).",
+        last_commit_at: ~N[2020-03-25 05:12:12],
+        name: "gen_state_machine",
+        stars_count: 236,
+        url: "https://github.com/antipax/gen_state_machine"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Simple Elixir wrapper for the Stockfighter API",
+        last_commit_at: ~N[2016-01-11 23:59:03],
+        name: "stockastic",
+        stars_count: 18,
+        url: "https://github.com/shanewilton/stockastic"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >
+  ],
+  name: "Behaviours and Interfaces"
+}
+iex(2)> [debug] QUERY OK db=0.0ms idle=78.2ms
+begin []
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Behaviours and Interfaces", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [6, "Connection behaviour for connection processes", ~N[2017-04-24 12:55:29], "connection", 224, "https://github.com/fishcakez/connection", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [6, "An idiomatic Elixir wrapper for gen_statem in OTP 19 (and above).", ~N[2020-03-25 05:12:12], "gen_state_machine", 236, "https://github.com/antipax/gen_state_machine", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [6, "Simple Elixir wrapper for the Stockfighter API", ~N[2016-01-11 23:59:03], "stockastic", 18, "https://github.com/shanewilton/stockastic", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.6ms
+commit []
+iex(2)> [debug] QUERY OK source="categories" db=0.2ms idle=74.6ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Build Tools", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Sane, simple release creation for Erlang",
+        last_commit_at: ~N[2020-08-15 20:49:02],
+        name: "relx",
+        stars_count: 608,
+        url: "https://github.com/erlware/relx"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "♾️ ACTIVE: Filesystem Activities — https://active.n2o.dev",
+        last_commit_at: ~N[2020-01-08 21:40:23],
+        name: "active",
+        stars_count: 65,
+        url: "https://github.com/synrc/active"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Rebar3 plugin to auto compile and reload on file change.",
+        last_commit_at: ~N[2020-08-15 17:21:39],
+        name: "rebar3_auto",
+        stars_count: 43,
+        url: "https://github.com/vans163/rebar3_auto"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Automatic recompilation of mix code on file change.",
+        last_commit_at: ~N[2018-08-21 21:48:49],
+        name: "remix",
+        stars_count: 126,
+        url: "https://github.com/AgilionApps/remix"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Rotor plugin to compile CoffeeScript files",
+        last_commit_at: ~N[2020-03-04 16:28:43],
+        name: "coffee_rotor",
+        stars_count: 15,
+        url: "https://github.com/HashNuke/coffee_rotor"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Compile Diameter .dia files on Erlang Rebar3 projects",
+        last_commit_at: ~N[2020-03-03 22:02:27],
+        name: "rebar3_diameter_compiler",
+        stars_count: 3,
+        url: "https://github.com/carlosedp/rebar3_diameter_compiler"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Super-simple build system for Elixir",
+        last_commit_at: ~N[2014-10-26 03:19:52],
+        name: "rotor",
+        stars_count: 81,
+        url: "https://github.com/HashNuke/rotor"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "a \"compiler\" (as in `Mix.compilers`) for Elixir that just runs make",
+        last_commit_at: ~N[2014-12-28 04:57:18],
+        name: "dismake",
+        stars_count: 3,
+        url: "https://github.com/jarednorman/dismake"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A rebar3 plugin to enable the execution of Erlang QuickCheck properties ",
+        last_commit_at: ~N[2020-03-03 20:25:25],
+        name: "rebar3_eqc",
+        stars_count: 14,
+        url: "https://github.com/kellymclaughlin/rebar3-eqc-plugin"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A sass plugin for elixir projects",
+        last_commit_at: ~N[2014-09-29 20:08:38],
+        name: "sass_elixir",
+        stars_count: 0,
+        url: "https://github.com/zamith/sass_elixir"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "futures for elixir/erlang",
+        last_commit_at: ~N[2016-10-28 18:45:28],
+        name: "etude",
+        stars_count: 10,
+        url: "https://github.com/exstruct/etude"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A plugin to run Elixir ExUnit tests from rebar3 build tool",
+        last_commit_at: ~N[2015-09-23 14:20:08],
+        name: "rebar3_exunit",
+        stars_count: 2,
+        url: "https://github.com/processone/rebar3_exunit"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A modern, scriptable, dependency-based build tool loosely based on Make principles.",
+        last_commit_at: ~N[2014-11-27 00:38:21],
+        name: "ExMake",
+        stars_count: 15,
+        url: "https://github.com/lycus/exmake"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        last_commit_at: ~N[2017-01-26 16:47:08],
+        name: "rebar3_idl_compiler",
+        stars_count: 0,
+        url: "https://github.com/sebastiw/rebar3_idl_compiler"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Elixir escript library (derived work from elixir)",
+        last_commit_at: ~N[2016-11-28 20:56:07],
+        name: "Exscript",
+        stars_count: 7,
+        url: "https://github.com/liveforeverx/exscript"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Rebar3 live plugin",
+        last_commit_at: ~N[2020-03-03 19:37:29],
+        name: "rebar3_live",
+        stars_count: 3,
+        url: "https://github.com/pvmart/rebar3_live"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "⚡ MAD: Manage Dependencies  — https://mad.n2o.dev",
+        last_commit_at: ~N[2020-02-14 09:38:14],
+        name: "mad",
+        stars_count: 171,
+        url: "https://github.com/synrc/mad"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "A rebar3 port compiler",
+        last_commit_at: ~N[2020-06-06 08:28:03],
+        name: "pc",
+        stars_count: 45,
+        url: "https://github.com/blt/port_compiler"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Rebar3 neotoma (Parser Expression Grammar) compiler",
+        last_commit_at: ~N[2015-11-18 23:33:58],
+        name: "rebar3_neotoma_plugin",
+        stars_count: 1,
+        url: "https://github.com/zamotivator/rebar3_neotoma_plugin"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "rebar3 protobuffs provider using protobuffs from Basho",
+        last_commit_at: ~N[2016-04-29 04:29:32],
+        name: "rebar3_protobuffs",
+        stars_count: 11,
+        url: "https://github.com/benoitc/rebar3_protobuffs"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Use React template into your Elixir application for server rendering",
+        last_commit_at: ~N[2020-06-04 13:07:20],
+        name: "reaxt",
+        stars_count: 338,
+        url: "https://github.com/awetzel/reaxt"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Run a release with one simple command",
+        last_commit_at: ~N[2020-03-08 03:05:01],
+        name: "rebar3_run",
+        stars_count: 22,
+        url: "https://github.com/tsloughter/rebar3_run"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Rebar3 abnfc plugin",
+        last_commit_at: ~N[2017-10-10 15:18:46],
+        name: "rebar3_abnfc_plugin",
+        stars_count: 1,
+        url: "https://github.com/surik/rebar3_abnfc_plugin"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Rebar3 yang compiler",
+        last_commit_at: ~N[2017-10-10 10:15:33],
+        name: "rebar3_yang_plugin",
+        stars_count: 0,
+        url: "https://github.com/surik/rebar3_yang_plugin"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Plugin for compiling ASN.1 modules with Rebar3.",
+        last_commit_at: ~N[2020-03-03 19:43:15],
+        name: "rebar3_asn1_compiler",
+        stars_count: 0,
+        url: "https://github.com/pyykkis/rebar3_asn1_compiler"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "Erlang reltool utility functionality application",
+        last_commit_at: ~N[2020-07-05 00:17:47],
+        name: "reltool_util",
+        stars_count: 22,
+        url: "https://github.com/okeuday/reltool_util"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >
+  ],
+  name: "Build Tools"
+}
+iex(2)> [debug] QUERY OK db=0.1ms idle=20.9ms
+begin []
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Build Tools", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Sane, simple release creation for Erlang", ~N[2020-08-15 20:49:02], "relx", 608, "https://github.com/erlware/relx", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "♾️ ACTIVE: Filesystem Activities — https://active.n2o.dev", ~N[2020-01-08 21:40:23], "active", 65, "https://github.com/synrc/active", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Rebar3 plugin to auto compile and reload on file change.", ~N[2020-08-15 17:21:39], "rebar3_auto", 43, "https://github.com/vans163/rebar3_auto", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Automatic recompilation of mix code on file change.", ~N[2018-08-21 21:48:49], "remix", 126, "https://github.com/AgilionApps/remix", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Rotor plugin to compile CoffeeScript files", ~N[2020-03-04 16:28:43], "coffee_rotor", 15, "https://github.com/HashNuke/coffee_rotor", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Compile Diameter .dia files on Erlang Rebar3 projects", ~N[2020-03-03 22:02:27], "rebar3_diameter_compiler", 3, "https://github.com/carlosedp/rebar3_diameter_compiler", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Super-simple build system for Elixir", ~N[2014-10-26 03:19:52], "rotor", 81, "https://github.com/HashNuke/rotor", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "a \"compiler\" (as in `Mix.compilers`) for Elixir that just runs make", ~N[2014-12-28 04:57:18], "dismake", 3, "https://github.com/jarednorman/dismake", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "A rebar3 plugin to enable the execution of Erlang QuickCheck properties ", ~N[2020-03-03 20:25:25], "rebar3_eqc", 14, "https://github.com/kellymclaughlin/rebar3-eqc-plugin", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "A sass plugin for elixir projects", ~N[2014-09-29 20:08:38], "sass_elixir", 0, "https://github.com/zamith/sass_elixir", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "futures for elixir/erlang", ~N[2016-10-28 18:45:28], "etude", 10, "https://github.com/exstruct/etude", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "A plugin to run Elixir ExUnit tests from rebar3 build tool", ~N[2015-09-23 14:20:08], "rebar3_exunit", 2, "https://github.com/processone/rebar3_exunit", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "A modern, scriptable, dependency-based build tool loosely based on Make principles.", ~N[2014-11-27 00:38:21], "ExMake", 15, "https://github.com/lycus/exmake", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "id" [7, ~N[2017-01-26 16:47:08], "rebar3_idl_compiler", 0, "https://github.com/sebastiw/rebar3_idl_compiler", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Elixir escript library (derived work from elixir)", ~N[2016-11-28 20:56:07], "Exscript", 7, "https://github.com/liveforeverx/exscript", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Rebar3 live plugin", ~N[2020-03-03 19:37:29], "rebar3_live", 3, "https://github.com/pvmart/rebar3_live", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "⚡ MAD: Manage Dependencies  — https://mad.n2o.dev", ~N[2020-02-14 09:38:14], "mad", 171, "https://github.com/synrc/mad", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "A rebar3 port compiler", ~N[2020-06-06 08:28:03], "pc", 45, "https://github.com/blt/port_compiler", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Rebar3 neotoma (Parser Expression Grammar) compiler", ~N[2015-11-18 23:33:58], "rebar3_neotoma_plugin", 1, "https://github.com/zamotivator/rebar3_neotoma_plugin", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "rebar3 protobuffs provider using protobuffs from Basho", ~N[2016-04-29 04:29:32], "rebar3_protobuffs", 11, "https://github.com/benoitc/rebar3_protobuffs", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Use React template into your Elixir application for server rendering", ~N[2020-06-04 13:07:20], "reaxt", 338, "https://github.com/awetzel/reaxt", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Run a release with one simple command", ~N[2020-03-08 03:05:01], "rebar3_run", 22, "https://github.com/tsloughter/rebar3_run", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Rebar3 abnfc plugin", ~N[2017-10-10 15:18:46], "rebar3_abnfc_plugin", 1, "https://github.com/surik/rebar3_abnfc_plugin", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Rebar3 yang compiler", ~N[2017-10-10 10:15:33], "rebar3_yang_plugin", 0, "https://github.com/surik/rebar3_yang_plugin", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.3ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Plugin for compiling ASN.1 modules with Rebar3.", ~N[2020-03-03 19:43:15], "rebar3_asn1_compiler", 0, "https://github.com/pyykkis/rebar3_asn1_compiler", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [7, "Erlang reltool utility functionality application", ~N[2020-07-05 00:17:47], "reltool_util", 22, "https://github.com/okeuday/reltool_util", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.8ms
+commit []
+iex(2)> [debug] QUERY OK source="categories" db=0.2ms idle=29.9ms
+SELECT c0."id", c0."name", c0."language_id", c0."inserted_at", c0."updated_at" FROM "categories" AS c0 WHERE ((c0."name" = $1) AND (c0."language_id" = $2)) ["Domain-specific language", 1]
+iex(2)> %{
+  language: %AwesomeList.Repo.Languages.Language{
+    __meta__: #Ecto.Schema.Metadata<:loaded, "languages">,
+    categories: #Ecto.Association.NotLoaded<association :categories is not loaded>,
+    id: 1,
+    inserted_at: ~N[2020-08-16 09:00:50],
+    list_anchor: "#awesome-elixir",
+    name: "elixir",
+    repo_path: "h4cc/awesome-elixir",
+    updated_at: ~N[2020-08-16 09:00:50]
+  },
+  libraries: [
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "The GraphQL toolkit for Elixir",
+        last_commit_at: ~N[2020-08-09 21:05:51],
+        name: "Absinthe Graphql",
+        stars_count: 3277,
+        url: "https://github.com/absinthe-graphql/absinthe"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An implementation of JSON-LD for Elixir",
+        last_commit_at: ~N[2020-06-22 01:12:11],
+        name: "JSON-LD.ex",
+        stars_count: 37,
+        url: "https://github.com/marcelotto/jsonld-ex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An implementation of RDF for Elixir",
+        last_commit_at: ~N[2020-07-03 22:21:05],
+        name: "RDF.ex",
+        stars_count: 55,
+        url: "https://github.com/marcelotto/rdf-ex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An implementation of RDF for Elixir",
+        last_commit_at: ~N[2020-07-03 22:21:05],
+        name: "RDF.ex",
+        stars_count: 55,
+        url: "https://github.com/marcelotto/rdf-ex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >,
+    #Ecto.Changeset<
+      action: nil,
+      changes: %{
+        description: "An implementation of SPARQL for Elixir",
+        last_commit_at: ~N[2020-06-01 19:52:30],
+        name: "SPARQL.ex",
+        stars_count: 23,
+        url: "https://github.com/marcelotto/sparql-ex"
+      },
+      errors: [],
+      data: #AwesomeList.Repo.Libraries.Library<>,
+      valid?: true
+    >
+  ],
+  name: "Domain-specific language"
+}
+iex(2)> [debug] QUERY OK db=0.1ms idle=25.7ms
+begin []
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "categories" ("language_id","name","inserted_at","updated_at") VALUES ($1,$2,$3,$4) RETURNING "id" [1, "Domain-specific language", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.2ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [8, "The GraphQL toolkit for Elixir", ~N[2020-08-09 21:05:51], "Absinthe Graphql", 3277, "https://github.com/absinthe-graphql/absinthe", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [8, "An implementation of JSON-LD for Elixir", ~N[2020-06-22 01:12:11], "JSON-LD.ex", 37, "https://github.com/marcelotto/jsonld-ex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [8, "An implementation of RDF for Elixir", ~N[2020-07-03 22:21:05], "RDF.ex", 55, "https://github.com/marcelotto/rdf-ex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY ERROR db=3.0ms
+INSERT INTO "libraries" ("category_id","description","last_commit_at","name","stars_count","url","inserted_at","updated_at") VALUES ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING "id" [8, "An implementation of RDF for Elixir", ~N[2020-07-03 22:21:05], "RDF.ex", 55, "https://github.com/marcelotto/rdf-ex", ~N[2020-08-16 09:06:55], ~N[2020-08-16 09:06:55]]
+iex(2)> [debug] QUERY OK db=0.1ms
+rollback []
+iex(2)> [error] Task #PID<0.385.0> started from #PID<0.346.0> terminating
+** (Ecto.ConstraintError) constraint error when attempting to insert struct:
+
+    * libraries_name_category_id_index (unique_constraint)
+
+If you would like to stop this constraint violation from raising an
+exception and instead add it as an error to your changeset, please
+call `unique_constraint/3` on your changeset with the constraint
+`:name` as an option.
+
+The changeset has not defined any constraint.
+
+    (ecto) lib/ecto/repo/schema.ex:700: anonymous fn/4 in Ecto.Repo.Schema.constraints_to_errors/3
+    (elixir) lib/enum.ex:1336: Enum."-map/2-lists^map/1-0-"/2
+    (ecto) lib/ecto/repo/schema.ex:685: Ecto.Repo.Schema.constraints_to_errors/3
+    (ecto) lib/ecto/repo/schema.ex:666: Ecto.Repo.Schema.apply/4
+    (ecto) lib/ecto/repo/schema.ex:263: anonymous fn/15 in Ecto.Repo.Schema.do_insert/4
+    (ecto) lib/ecto/association.ex:704: Ecto.Association.Has.on_repo_change/5
+    (ecto) lib/ecto/association.ex:474: anonymous fn/8 in Ecto.Association.on_repo_change/7
+    (elixir) lib/enum.ex:1948: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (ecto) lib/ecto/association.ex:470: Ecto.Association.on_repo_change/7
+    (elixir) lib/enum.ex:1948: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (ecto) lib/ecto/association.ex:434: Ecto.Association.on_repo_change/4
+    (ecto) lib/ecto/repo/schema.ex:809: Ecto.Repo.Schema.process_children/5
+    (ecto) lib/ecto/repo/schema.ex:886: anonymous fn/3 in Ecto.Repo.Schema.wrap_in_transaction/6
+    (ecto_sql) lib/ecto/adapters/sql.ex:875: anonymous fn/3 in Ecto.Adapters.SQL.checkout_or_transaction/4
+    (db_connection) lib/db_connection.ex:1427: DBConnection.run_transaction/4
+    (elixir) lib/enum.ex:1336: Enum."-map/2-lists^map/1-0-"/2
+    (elixir) lib/enum.ex:1336: Enum."-map/2-lists^map/1-0-"/2
+    (awesome_list) lib/awesome_list/repo/performer.ex:66: AwesomeList.Repo.Performer.call/1
+    (elixir) lib/task/supervised.ex:90: Task.Supervised.invoke_mfa/2
+    (stdlib) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+Function: #Function<9.99047952/0 in AwesomeList.Repo.Performer.handle_info/2>
+    Args: []
+iex(2)> 
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
