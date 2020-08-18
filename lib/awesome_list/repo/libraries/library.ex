@@ -31,7 +31,7 @@ defmodule AwesomeList.Repo.Libraries.Library do
     |> cast(attrs, [:name, :url, :last_commit_at, :stars_count, :description])
     |> put_assoc(:category, attrs[:category])
     |> validate_required([:name, :url, :category])
-    |> unique_constraint([:name, :category_id])
-    |> unique_constraint(:url)
+#    |> unique_constraint([:name, :category_id])
+#    |> unique_constraint(:url)
   end
 end

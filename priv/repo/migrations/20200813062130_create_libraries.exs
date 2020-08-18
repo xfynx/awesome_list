@@ -14,7 +14,7 @@ defmodule AwesomeList.Repo.Migrations.CreateLibraries do
     end
 
     create index(:libraries, [:category_id])
-    create unique_index(:libraries, [:name, :category_id])
-    create unique_index(:libraries, [:url])
+#    create unique_index(:libraries, [:name, :category_id])
+#    create unique_index(:libraries, [:url])
   end
 end

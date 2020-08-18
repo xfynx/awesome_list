@@ -17,13 +17,15 @@
       <div class="column">
         <div class="control has-icons-left">
           <div class="select">
-            <select v-model="minStars" @change="selectList()" :disabled="currentLang === {}">
+            <select v-model="minStars" @change="selectList()" :disabled="isEmptyObject(currentLang)">
               <option>0</option>
               <option>50</option>
               <option>100</option>
               <option>200</option>
               <option>500</option>
               <option>1000</option>
+              <option>2000</option>
+              <option>5000</option>
             </select>
           </div>
           <div class="icon is-small is-left">
@@ -32,23 +34,29 @@
         </div>
       </div>
     </div>
-    <div class="content" v-if="categoriesWithLibs !== {}">
-      <h1>Оглавление</h1>
-      <div v-for="(list, category) in categoriesWithLibs">
-        <h3><a :href="`#${category}`">{{category}}</a></h3>
+    <div v-if="!isEmptyObject(categoriesWithLibs)">
+      <div class="content">
+        <h1>Оглавление</h1>
+        <div v-for="(list, category) in categoriesWithLibs">
+          <h3><a :href="`#${category}`">{{ category }}</a></h3>
+        </div>
+      </div>
+      <div class="content">
+        <h1>По категориям</h1>
+        <div v-for="(list, category) in categoriesWithLibs">
+          <h3><a :name="category">🔗</a> {{ category }}</h3>
+          <ul>
+            <li v-for="library in list">
+              <a :href="library.url">{{ library.name }}</a> 🌟{{ library.stars_count }}
+              📅{{ countDays(library.last_commit_at) }} - {{ library.description }}
+            </li>
+          </ul>
+          <br>
+        </div>
       </div>
     </div>
-    <div class="content" v-if="categoriesWithLibs !== {}">
-      <h1>По категориям</h1>
-      <div v-for="(list, category) in categoriesWithLibs">
-        <h3><a :name="category">🔗</a> {{category}}</h3>
-        <ul>
-          <li v-for="library in list">
-            <a :href="library.url">{{ library.name }}</a> 🌟{{ library.stars_count }} 📅{{ countDays(library.last_commit_at) }}  - {{ library.description }}
-          </li>
-        </ul>
-        <br>
-      </div>
+    <div class="content" v-if="isEmptyObject(categoriesWithLibs) && !isEmptyObject(currentLang)">
+      <h2>Не найдено ни одной библиотеки</h2>
     </div>
   </div>
 </template>
@@ -89,6 +97,9 @@ export default {
       const date = Date.parse(lastCommitAt)
       const today = new Date()
       return Math.round((today - date) / (1000 * 3600 * 24))
+    },
+    isEmptyObject(object) {
+      return Object.keys(object).length === 0
     }
   }
 }
